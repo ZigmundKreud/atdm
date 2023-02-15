@@ -1,2 +1,1 @@
-# atdm
-Against the Darkmaster system for Foundry VTT
+# Against the Darkmaster for Foundry VTT
