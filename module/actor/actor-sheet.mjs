@@ -11,8 +11,8 @@ export class AtDMActorSheet extends ActorSheet {
       template: "systems/atdm/templates/actors/actor-sheet.hbs",
       top: 0,
       left: 0,
-      width: 800,
-      height: 600,
+      width: 715,
+      height: 900,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "stats" }]
     });
   }
@@ -33,7 +33,10 @@ export class AtDMActorSheet extends ActorSheet {
   /** @override */
   getData(options) {
     const actorData = super.getData(options);
+    actorData.system = this.actor.system;
     actorData.config = game.atdm.config;
+    actorData.skills = this.actor.skills;
+    actorData.skillGroups = this.actor.skillGroups;
     return actorData;
   }
   /* -------------------------------------------- */
@@ -59,7 +62,9 @@ export class AtDMActorSheet extends ActorSheet {
   _onEditItem(event) {
     event.preventDefault();
     const li = $(event.currentTarget).closest(".item");
+    console.log(li);
     const id = li.data("itemId");
+    console.log(id);
     let document = this.actor.items.get(id);
     return document.sheet.render(true);
   }

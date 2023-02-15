@@ -3,7 +3,10 @@
     "TypeCharacter": "Personnage"
   },
   "ITEM": {
-    "TypeItem": "Objet"
+    "TypeEquipment": "Équipement",
+    "TypeSkill": "Compétence",
+    "TypeSpell": "Sort",
+    "TypeSpellList": "Liste de Sorts"
   },
   "ATDM": {
     "sheet": {
@@ -11,10 +14,31 @@
       "item": "Fiche d'objet personnage"
     },
     "ui" : {
+      "tabs" : {
+        "main" : "Principal",
+        "skills" : "Compétences",
+        "inventory" : "Inventaire",
+        "spells" : "Sorts",
+        "description" : "Description"
+      },
+      "shorts" : {
+        "stats" : "Carac.",
+        "rank" : "Rang",
+        "rankBonus" : "Bonus",
+        "voc" : "Voc.",
+        "lvl" : "Niv.",
+        "base" : "Base",
+        "kin" : "Asc.",
+        "spec" : "Spé.",
+        "item" : "Objet",
+        "total" : "TOT"
+      },
+      "none" : "-",
       "name" : "Nom du Personnage",
       "lvl" : "Niveau",
       "xp" : "XP",
       "nextLvl" : "Niveau Suivant",
+      "base" : "Base",
       "kin" : "Ascendance",
       "culture" : "Culture",
       "vocation" : "Vocation",
@@ -25,15 +49,25 @@
       "nature" : "Nature",
       "allegiance" : "Allégeance",
       "stats" : "Caractéristiques",
+      "stat" : "Caractéristique",
       "saveRolls" : "Sauvegardes",
-      "specialTraits" : "",
-      "background" : "",
-      "skills" : "",
-      "wounds" : "",
-      "defense" : "",
-      "hitPoints" : "",
-      "mouvement" : "",
-      "wealth" : ""
+      "specialTraits" : "Traits Spéciaux",
+      "background" : "Historique",
+      "skills" : "Compétences",
+      "wounds" : "Blessures",
+      "defense" : "Défense",
+      "hitPoints" : "Points de Vie",
+      "movement" : "Mouvement",
+      "wealth" : "Richesse",
+      "category" : "Catégorie",
+      "rank" : "Rang",
+      "rankBonus" : "Bonus",
+      "statBonus": "Bonus de caractéristique",
+      "vocBonus": "Bonus de vocation",
+      "itemBonus": "Bonus d'objet",
+      "specialBonus": "Bonus spécial",
+      "properties" : "Propriétés",
+      "total" : "Total"
     },
     "stats" : {
       "brn": "Puissance",
@@ -41,55 +75,71 @@
       "for": "Endurance",
       "wit": "Esprit",
       "wsd": "Clairvoyance",
-      "bea": "Allure"
+      "bea": "Allure",
+      "abbrev" : {
+        "brn": "PUI",
+        "swi": "COO",
+        "for": "END",
+        "wit": "ESP",
+        "wsd": "CLA",
+        "bea": "ALL"
+      }
     },
     "skills" : {
       "categories" : {
-        "armor" : "",
-        "combat" : "",
-        "adventuring" : "",
-        "roguery" : "",
-        "lore" : "",
-        "body" : ""
+        "armor" : "Armure",
+        "combat" : "Combat",
+        "adventuring" : "Aventure",
+        "roguery" : "Roublardise",
+        "lore" : "Savoirs",
+        "body" : "Corps"
       },
       "armor" : {
-        "armor" : ""
+        "armor" : "Armure"
       },
       "combat" : {
-        "blunt" : "",
-        "blades" : "",
-        "ranged" : "",
-        "polearms" : "",
-        "brawl" : ""
+        "blunt" : "Masses",
+        "blades" : "Lames",
+        "ranged" : "Armes à Distance",
+        "polearms" : "Armes d'hast",
+        "brawl" : "Bagarre"
       },
       "adventuring" : {
-        "athletics" : "",
-        "ride" : "",
-        "hunting" : "",
-        "nature" : "",
-        "wandering" : ""
+        "athletics" : "Athlétisme",
+        "ride" : "Équitation",
+        "hunting" : "Chasse",
+        "nature" : "Nature",
+        "wandering" : "Voyage"
       },
       "roguery" : {
-        "acrobatics" : "",
-        "stealth" : "",
-        "locksAndTraps" : "",
-        "perception" : "",
-        "deceive" : ""
+        "acrobatics" : "Acrobaties",
+        "stealth" : "Furtivité",
+        "locksAndTraps" : "Serrures & Pièges",
+        "perception" : "Perception",
+        "deceive" : "Duperie"
       },
       "lore" : {
-        "arcana" : "",
-        "charisma" : "",
-        "cultures" : "",
-        "healer" : "",
-        "songsAndTales" : ""
+        "arcana" : "Arcanes",
+        "charisma" : "Charisme",
+        "cultures" : "Cultures",
+        "healer" : "Soins",
+        "songsAndTales" : "Chants & Contes"
       },
       "body" : {
-        "body" : ""
+        "body" : "Corps"
       }
     },
     "saves" : {
-      "toughness": "Puissance",
-      "willpower": "Coordination"
+      "toughness": "Résistance",
+      "willpower": "Volonté"
+    },
+    "properties" : {
+      "rollable" : "Jet de dé",
+      "body" : "Corps",
+      "spellLore" : "Savoir magique",
+      "power" : "Pouvoir",
+      "armor" : "Armure",
+      "attack" : "Attaque d'arme"
     }
   }
 }

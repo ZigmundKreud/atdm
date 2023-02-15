@@ -6,20 +6,5 @@
             <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
         </div>
     </header>
-    {{!-- Sheet Tab Navigation --}}
-    <nav class="sheet-tabs tabs" data-group="primary">
-        <a class="item" data-tab="description">Description</a>
-        <a class="item" data-tab="properties">Properties</a>
-    </nav>
-    {{!-- Sheet Body --}}
-    <section class="sheet-body">
-        {{!-- Description Tab --}}
-        <div class="tab flexrow description active" data-group="primary" data-tab="description">
-            {{editor enrichedDescription target="system.description" button=true owner=owner editable=editable}}
-        </div>
-        {{!-- Attributes Tab --}}
-        <div class="tab properties" data-group="primary" data-tab="properties">
-            {{> (concat (concat "systems/atdm/templates/items/parts/" item.type) "-partial.hbs") }}
-        </div>
-    </section>
+    {{> (concat (concat "systems/atdm/templates/items/parts/" item.type) "-partial.hbs") }}
 </form>

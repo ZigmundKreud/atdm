@@ -1,4 +1,10 @@
 export const ATDM = {
+  itemTypes : {
+    SKILL : "skill",
+    EQUIPMENT : "equipment",
+    SPELL : "spell",
+    SPELLLIST : "spellList"
+  },
   stats : {
     brn: "ATDM.stats.brn",
     swi: "ATDM.stats.swi",

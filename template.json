@@ -13,15 +13,29 @@
       "templates": [
         "base"
       ],
+      "passions" : {
+        "motivation" : "",
+        "nature" : "",
+        "allegiance" : ""
+      },
       "stats" : {
-        "brn" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
-        "swi" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
-        "for" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
-        "wit" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
-        "wsd" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
-        "bea" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 }
+        "brn" : { "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "swi" : { "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "for" : { "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "wit" : { "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "wsd" : { "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "bea" : { "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 }
+      },
+      "saves" : {
+        "toughness" : { "stat" : "for", "statBonus": 0, "lvl" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "willpower" : { "stat" : "wsd", "statBonus": 0, "lvl" : 0, "kin" : 0, "spec" : 0, "total" : 0 }
       },
       "resources" : {
+        "lvl" : 1,
+        "xp" : {
+          "current" : 0,
+          "nextLvl" : 0
+        },
         "magicPoints" : {
           "kin" : 0,
           "stat" : 0,
@@ -99,6 +113,7 @@
       "rankBonus": -25,
       "statBonus": 0,
       "vocBonus": 0,
+      "kinBonus": 0,
       "itemBonus": 0,
       "specialBonus": 0,
       "total": 0,

@@ -7,6 +7,7 @@ import {registerHandlebarsHelpers} from "./system/helpers.mjs";
 import registerHooks from "./system/hooks.mjs";
 import {ATDM} from "./system/config.mjs";
 import {Tables} from "./tables/weapons/tables.mjs";
+import {AtDMActorSheet} from "./actor/actor-sheet.mjs";
 
 Hooks.once('init', async function () {
 
@@ -31,7 +32,7 @@ Hooks.once('init', async function () {
     // Register sheet application classes
     Actors.unregisterSheet("core", ActorSheet);
     Items.unregisterSheet("core", ItemSheet);
-    Actors.registerSheet("atdm", AtDMItemSheet, {makeDefault: true});
+    Actors.registerSheet("atdm", AtDMActorSheet, {makeDefault: true});
     Items.registerSheet("atdm", AtDMItemSheet, {makeDefault: true});
     // Register System Settings
     registerSystemSettings();

@@ -1,0 +1,155 @@
+@import "flex";
+
+.atdm {
+  @import "colors";
+  @import "typography";
+  @import "form-reset";
+
+  &.sheet {
+    .window-content {
+      font-family: @font-primary;
+      border: 35px solid transparent;
+      //border-image: url("/systems/atdm/ui/assets/border.webp") 36 repeat;
+      border-image-source: url("/systems/atdm/ui/assets/border.webp");
+      border-image-slice: 100 fill;
+      border-image-width: 35px;
+      border-image-repeat: repeat;
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+
+      .item-controls {
+        padding: 4px 4px 0 0;
+        font-size: smaller;
+
+        .item-edit, .item-delete {
+          color: @colorDark;
+        }
+      }
+
+      form {
+        margin: 0;
+        padding: 0;
+
+        .container {
+          .left {
+            padding-left: 5px;
+          }
+
+          &.skills-container {
+            .container-body {
+              border: none;
+              font-size: smaller;
+
+              .container-row {
+                height: 20px;
+              }
+            }
+
+            .container-header {
+              margin-bottom: 6px;
+            }
+          }
+
+          .container-header {
+            height: 30px;
+
+            .header-field {
+              &.center {
+                margin-left: 5px;
+              }
+
+              &.gray {
+                background-color: @colorGray;
+                //margin-left:0;
+              }
+
+              h4 {
+                font-family: @font-secondary;
+                font-size: 16px;
+                text-align: left;
+                margin-bottom: -2px;
+                margin-left: 3px;
+              }
+            }
+          }
+
+          .container-body {
+            border: 4px solid @colorGray;
+
+            .container-row {
+              height: 30px;
+
+              .form-fields {
+                &.center {
+                  margin-left: 5px;
+                  border-bottom: 1px solid @colorGray;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.actor {
+      form {
+        background-image: url("/systems/atdm/ui/assets/deco-bottom-left.webp");
+        background-size: calc(626px * 0.3) calc(775px * 0.3);
+        background-position: bottom left;
+        background-repeat: no-repeat;
+
+        .wrap {
+          margin: 0;
+          padding: 30px 5px 40px 50px;
+          height: 100%;
+          background-image: url("/systems/atdm/ui/assets/deco-top-left.webp");
+          background-size: calc(888px * 0.32) calc(762px * 0.32);
+          background-position: top left;
+          background-repeat: no-repeat;
+
+          .sheet-header {
+            background-image: url("/systems/atdm/ui/assets/logo.webp");
+            background-size: calc(569px * 0.3) calc(154px * 0.3);
+            background-position: top left;
+            background-repeat: no-repeat;
+            padding: 0;
+            margin: 0;
+
+            .details {
+              margin-top: 50px;
+            }
+
+            .portrait {
+              background: white;
+              margin-top: -25px;
+              display: flex;
+              flex: 0;
+              padding: 0px;
+              outline: 4px solid @colorGray;
+              min-width: 150px;
+              min-height: 200px;
+              max-width: 150px;
+              max-height: 200px;
+
+              img {
+                padding: 5px;
+                border: none;
+                border-radius: 0;
+                height: 200px;
+                width: 150px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.item {
+      .form-group {
+        background: white;
+      }
+    }
+  }
+}

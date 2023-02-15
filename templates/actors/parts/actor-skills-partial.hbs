@@ -1,39 +1,67 @@
-<h3 class="form-header">{{localize "RM.skills.label"}}</h3>
-<div class="skills-list">
-    <div class="skills-header flexrow no-wrap">
-        <div class="form-fields flex2">{{localize "RM.skills.abbr.name"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.stat"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.cost"}}</div>
-        <div class="form-fields center skill-rank">{{localize "RM.skills.abbr.rank"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.rankBonus"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.statBonus"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.levelBonus"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.itemBonus"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.specialBonus"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.misc"}}</div>
-        <div class="form-fields center flex1">{{localize "RM.skills.abbr.total"}}</div>
-        <div class="form-fields center flex1"></div>
+<div class="skills-container container">
+    <div class="container-header flexrow">
+        <div class="header-field flex4 left gray"><h4>{{localize "ATDM.ui.skills"}}</h4></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.stats"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.rank"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.rankBonus"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.voc"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.kin"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.spec"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.item"}}</small></div>
+        <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.total"}}</small></div>
+        <div class="header-field flex1 center">&nbsp;</div>
     </div>
-    {{#if skills}}
-    {{#each skills as |skill id|}}
-        {{log "skill" skill id }}
-        <div class="skill item flexrow no-wrap" data-item-id="{{skill._id}}" data-index="{{id}}">
-            <div class="form-fields skill-name flex2"><a class="skill-roll">{{skill.name}}</a></div>
-            <div class="form-fields skill-stat center flex1">{{skill.system.stat}}</div>
-            <div class="form-fields skill-cost center flex1">{{skill.system.cost}}</div>
-            <div class="form-fields skill-rank"><div class="ranks">{{{rankdisplay skill.system.rank}}}</div></div>
-            <div class="form-fields skill-rankBonus center flex1">{{skill.system.rankBonus}}</div>
-            <div class="form-fields skill-statBonus center flex1">{{skill.system.statBonus}}</div>
-            <div class="form-fields skill-levelBonus center flex1">{{skill.system.levelBonus}}</div>
-            <div class="form-fields skill-itemBonus center flex1">{{skill.system.itemBonus}}</div>
-            <div class="form-fields skill-specialBonus center flex1">{{skill.system.specialBonus}}</div>
-            <div class="form-fields skill-misc center flex1">{{skill.system.misc}}</div>
-            <div class="form-fields skill-total center flex1">{{skill.system.total}}</div>
-            <div class="form-fields skill-actions right flex1">
-                <a class="item-edit"><i class="fas fa-edit"></i></a>
-                <a class="item-delete"><i class="fas fa-trash"></i></a>
+    <div class="container-body">
+{{#each skillGroups as |sg i|}}
+        <div class="sg-container container">
+            <div class="container-header flexrow">
+                <div class="header-field flex1 left gray"><h4>{{localize (concat "ATDM.skills.categories." sg.category)}}</h4></div>
             </div>
-        </div>
-    {{/each}}
-    {{/if}}
+            <div class="container-body">
+            {{#each sg.items as |skill id|}}
+                {{!log "skill" skill id}}
+                <div class="skill container-row flexrow no-wrap item" data-item-id="{{skill._id}}" data-item-type="skill">
+                    <div class="form-fields left flex4">
+                        {{#if skill.system.properties.rollable}}
+                            <a class="rollable">{{skill.name}} ({{#if skill.system.stat}}{{localize (concat "ATDM.stats.abbrev." skill.system.stat)}}{{else}}-{{/if}})</a>
+                        {{else}}
+                            {{skill.name}} ({{#if skill.system.stat}}{{localize (concat "ATDM.stats.abbrev." skill.system.stat)}}{{else}}-{{/if}})
+                        {{/if}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.statBonus}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.rank}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.rankBonus}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.vocBonus}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.kinBonus}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.specBonus}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.itemBonus}}
+                    </div>
+                    <div class="form-fields center flex2">
+                        {{skill.system.total}}
+                    </div>
+                    <div class="item-controls center flex1">
+                        <div class="flexrow center no-wrap">
+                            <a class="item-edit"><i class="fa-regular fa-pencil"></i></a>&nbsp;
+                            <a class="item-delete"><i class="fa-solid fa-xmark-large"></i></a>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+    </div>
+</div>
+
+{{/each}}
 </div>

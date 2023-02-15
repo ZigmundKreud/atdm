@@ -1,28 +1,102 @@
 <form class="{{cssClass}} {{actor.type}}" autocomplete="off">
-    {{log "ATDM | Actor " this}}
+    {{!log "ATDM | Actor " this}}
     <div class="wrap">
         <div class="sheet-header flexrow">
-            <div class="portrait flex1 center">
+            <div class="details">
+                <div class="form-group">
+                    <label>{{localize "ATDM.ui.name"}}</label>
+                    <div class="cell">
+                        <input class="field-value sans" name="name" type="text" value="{{actor.name}}" placeholder="{{localize "ATDM.ui.name"}}" data-dtype="String"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>{{localize "ATDM.ui.lvl"}}</label>
+                    <div class="cell">
+                        <input class="field-value sans" name="system.resources.lvl" type="text" value="{{system.resources.lvl}}" placeholder="{{localize "ATDM.ui.lvl"}}" data-dtype="String"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>{{localize "ATDM.ui.xp"}}</label>
+                    <div class="cell">
+                        <input class="field-value sans" name="system.resources.xp.current" type="text" value="{{system.resources.xp.current}}" placeholder="{{localize "ATDM.ui.xp"}}" data-dtype="String"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>{{localize "ATDM.ui.nextLvl"}}</label>
+                    <div class="cell">
+                        <input class="field-value sans" name="system.resources.xp.nextLvl" type="text" value="{{system.resources.xp.nextLvl}}" placeholder="{{localize "ATDM.ui.nextLvl"}}" data-dtype="String"/>
+                    </div>
+                </div>
+<!--                <div class="form-group">-->
+<!--                    <label>{{localize "ATDM.ui.kin"}}</label>-->
+<!--                    <div class="cell">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label>{{localize "ATDM.ui.culture"}}</label>-->
+<!--                    <div class="cell">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="form-group">-->
+<!--                    <label>{{localize "ATDM.ui.vocation"}}</label>-->
+<!--                    <div class="cell">-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+            <div class="portrait">
                 <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
             </div>
-            <div class="header-fields flex5">
-                <div class="logo"></div>
-                <div class="details flexrow">
-                    <input class="field-value sans" name="name" type="text" value="{{actor.name}}" placeholder="Name" data-dtype="String"/>
+        </div>
+        <div class="passions-container container">
+            <div class="container-header flexrow">
+                <div class="header-field left gray flex1"><h4>{{localize "ATDM.ui.passions"}}</h4></div>
+                <div class="header-field flex3"></div>
+            </div>
+            <div class="container-body">
+                <div class="passion container-row flexrow no-wrap">
+                    <div class="form-fields left flex1">{{localize "ATDM.ui.motivation"}}</div>
+                    <div class="form-fields left flex3">
+                        <input class="field-value sans" name="system.motivation" type="text" value="{{system.motivation}}" placeholder="{{localize "ATDM.ui.motivation"}}" data-dtype="String"/>
+                    </div>
                 </div>
-                {{!-- Sheet Tab Navigation --}}
-                <nav class="sheet-tabs tabs" data-group="primary">
-                    <a class="item" data-tab="main">{{localize "ATDM.ui.tabs.main"}}</a>
-                    <a class="item" data-tab="description">{{localize "ATDM.ui.tabs.description"}}</a>
-                </nav>
+                <div class="passion container-row flexrow no-wrap">
+                    <div class="form-fields left flex1">{{localize "ATDM.ui.nature"}}</div>
+                    <div class="form-fields left flex3">
+                        <input class="field-value sans" name="system.nature" type="text" value="{{system.nature}}" placeholder="{{localize "ATDM.ui.nature"}}" data-dtype="String"/>
+                    </div>
+                </div>
+                <div class="passion container-row flexrow no-wrap">
+                    <div class="form-fields left flex1">{{localize "ATDM.ui.allegiance"}}</div>
+                    <div class="form-fields left flex3">
+                        <input class="field-value sans" name="system.allegiance" type="text" value="{{system.allegiance}}" placeholder="{{localize "ATDM.ui.allegiance"}}" data-dtype="String"/>
+                    </div>
+                </div>
             </div>
         </div>
+        {{!-- Sheet Tab Navigation --}}
+        <nav class="sheet-tabs tabs" data-group="primary">
+            <a class="item" data-tab="main">{{localize "ATDM.ui.tabs.main"}}</a>
+            <a class="item" data-tab="skills">{{localize "ATDM.ui.tabs.skills"}}</a>
+            <a class="item" data-tab="inventory">{{localize "ATDM.ui.tabs.inventory"}}</a>
+            <a class="item" data-tab="spells">{{localize "ATDM.ui.tabs.spells"}}</a>
+            <a class="item" data-tab="description">{{localize "ATDM.ui.tabs.description"}}</a>
+        </nav>
         {{!-- Sheet Body --}}
         <section class="sheet-body">
             {{!-- Main Tab --}}
             <div class="tab main" data-group="primary" data-tab="main">
                 {{> "systems/atdm/templates/actors/parts/actor-stats-partial.hbs"}}
+            </div>
+            <div class="tab skills" data-group="primary" data-tab="skills">
                 {{> "systems/atdm/templates/actors/parts/actor-skills-partial.hbs"}}
+            </div>
+            <div class="tab inventory" data-group="primary" data-tab="inventory">
+                {{!> "systems/atdm/templates/actors/parts/actor-stats-partial.hbs"}}
+                {{!> "systems/atdm/templates/actors/parts/actor-skills-partial.hbs"}}
+            </div>
+            <div class="tab spells" data-group="primary" data-tab="spells">
+                {{!> "systems/atdm/templates/actors/parts/actor-stats-partial.hbs"}}
+                {{!> "systems/atdm/templates/actors/parts/actor-skills-partial.hbs"}}
             </div>
             {{!-- Biography Tab --}}
             <div class="tab flexrow description active" data-group="primary" data-tab="description">
