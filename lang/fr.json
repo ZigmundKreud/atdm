@@ -1,0 +1,100 @@
+{
+  "ACTOR": {
+    "TypeCharacter": "Personnage"
+  },
+  "ITEM": {
+    "TypeItem": "Objet",
+    "TypeEquipment": "Équipement",
+    "TypeStat": "Caractéristique",
+    "TypeSkill": "Compétence",
+    "TypeSpell": "Sort",
+    "TypeSpellList": "Liste de Sorts"
+  },
+  "ATDM": {
+    "sheet": {
+      "character": "Fiche de personnage",
+      "item": "Fiche d'objet personnage"
+    },
+    "ui" : {
+      "name" : "Nom du Personnage",
+      "lvl" : "Niveau",
+      "xp" : "XP",
+      "nextLvl" : "Niveau Suivant",
+      "kin" : "Ascendance",
+      "culture" : "Culture",
+      "vocation" : "Vocation",
+      "passions" : "Passions",
+      "drivePoints" : "Pulsion",
+      "heroicPath" : "Voie Héroïque",
+      "motivation" : "Motivation",
+      "nature" : "Nature",
+      "allegiance" : "Allégeance",
+      "stats" : "Caractéristiques",
+      "saveRolls" : "Sauvegardes",
+      "specialTraits" : "",
+      "background" : "",
+      "skills" : "",
+      "wounds" : "",
+      "defense" : "",
+      "hitPoints" : "",
+      "mouvement" : "",
+      "wealth" : ""
+    },
+    "stats" : {
+      "brn": "Puissance",
+      "swi": "Coordination",
+      "for": "Endurance",
+      "wit": "Esprit",
+      "wsd": "Clairvoyance",
+      "bea": "Allure"
+    },
+    "skills" : {
+      "categories" : {
+        "armor" : "",
+        "combat" : "",
+        "adventuring" : "",
+        "roguery" : "",
+        "lore" : "",
+        "body" : ""
+      },
+      "armor" : {
+        "armor" : ""
+      },
+      "combat" : {
+        "blunt" : "",
+        "blades" : "",
+        "ranged" : "",
+        "polearms" : "",
+        "brawl" : ""
+      },
+      "adventuring" : {
+        "athletics" : "",
+        "ride" : "",
+        "hunting" : "",
+        "nature" : "",
+        "wandering" : ""
+      },
+      "roguery" : {
+        "acrobatics" : "",
+        "stealth" : "",
+        "locksAndTraps" : "",
+        "perception" : "",
+        "deceive" : ""
+      },
+      "lore" : {
+        "arcana" : "",
+        "charisma" : "",
+        "cultures" : "",
+        "healer" : "",
+        "songsAndTales" : ""
+      },
+      "body" : {
+        "body" : ""
+      }
+    },
+    "saves" : {
+      "toughness": "Puissance",
+      "willpower": "Coordination"
+    }
+  }
+}

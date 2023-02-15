@@ -1,0 +1,115 @@
+{
+  "Actor": {
+    "types": [
+      "character"
+    ],
+    "templates": {
+      "base": {
+        "description": "",
+        "notes": ""
+      }
+    },
+    "character": {
+      "templates": [
+        "base"
+      ],
+      "stats" : {
+        "brn" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "swi" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "for" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "wit" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "wsd" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 },
+        "bea" : { "abbrev" : "", "base" : 0, "kin" : 0, "spec" : 0, "total" : 0 }
+      },
+      "resources" : {
+        "magicPoints" : {
+          "kin" : 0,
+          "stat" : 0,
+          "spec" : 0,
+          "statGainLvl" : 0,
+          "vocGainLvl" : 0,
+          "total" : 0,
+          "spent" : 0
+        },
+        "hitPoints" : {
+          "total" : 0,
+          "current" : 0
+        },
+        "drivePoints" : 0,
+        "heroicPath" : 0,
+        "wealth" : {
+          "level" : 0,
+          "status" : 0
+        },
+        "movement" : {
+          "encumbranceLevel" : 0,
+          "moveRate" : 0
+        },
+        "wounds" : {
+          "bleed" : 0,
+          "stun" : 0,
+          "penalties" : 0,
+          "conditions" : ""
+        },
+        "defense" : {
+          "statBonus" : 0,
+          "shieldBonus" : 0,
+          "itemBonus" : 0,
+          "specBonus" : 0,
+          "meleeDefense" : 0,
+          "rangedDefense" : 0
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["equipment", "skill"],
+    "templates": {
+      "base": {
+        "slug" : "",
+        "description": ""
+      }
+    },
+    "equipment" : {
+      "templates": [
+        "base"
+      ],
+      "subtype": "",
+      "quantity": 1,
+      "weight": 0,
+      "price" : 0,
+      "stackable" : {},
+      "reloadable" : {},
+      "equipable" : {
+        "equiped" : false
+      },
+      "properties" : {
+        "stackable" : false,
+        "reloadable" : false,
+        "equipable" : false
+      }
+    },
+    "skill": {
+      "templates": [
+        "base"
+      ],
+      "category" : "",
+      "stat" : "",
+      "rank": 0,
+      "rankBonus": -25,
+      "statBonus": 0,
+      "vocBonus": 0,
+      "itemBonus": 0,
+      "specialBonus": 0,
+      "total": 0,
+      "properties" : {
+        "rollable" : true,
+        "body" : false,
+        "spellLore" : false,
+        "power" : false,
+        "armor" : false,
+        "attack" : false
+      }
+    }
+  }
+}
