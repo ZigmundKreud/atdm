@@ -1,7 +1,8 @@
 {
-  "title": "Rolemaster Classic 5.0",
-  "description": "Rolemaster Classic 5.0 system for Foundry VTT",
-  "version": "1.0.0",
+  "id": "atdm",
+  "title": "Against the Darkmaster",
+  "description": "Against the Darkmaster system for Foundry VTT",
+  "version": "0.1",
   "compatibility": {
     "minimum": "10",
     "verified": "10.290"
@@ -13,10 +14,10 @@
     }
   ],
   "esmodules": [
-    "module/rmc5.mjs"
+    "module/atdm.mjs"
   ],
   "styles": [
-    "css/rmc5.css"
+    "css/atdm.css"
   ],
   "languages": [
     {
@@ -32,13 +33,23 @@
       "flags": {}
     }
   ],
+  "packs": [
+    {
+      "name": "skills",
+      "label": "Skills",
+      "system": "atdm",
+      "path": "packs/skills.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    }
+  ],
   "gridDistance": 1.5,
   "gridUnits": "m",
-  "primaryTokenAttribute": "hp",
+  "primaryTokenAttribute": "resources.hitPoints",
   "initiative": "2d10",
-  "url": "https://github.com/ZigmundKreud/rmc5",
-  "manifest": "https://raw.githubusercontent.com/ZigmundKreud/rmc5/main/system.json",
-  "download": "https://github.com/ZigmundKreud/rmc5/archive/refs/heads/main.zip",
-  "license": "LICENSE",
-  "id": "rmc5"
+  "url": "https://github.com/ZigmundKreud/atdm",
+  "manifest": "https://raw.githubusercontent.com/ZigmundKreud/atdm/main/system.json",
+  "download": "https://github.com/ZigmundKreud/atdm/archive/refs/heads/main.zip",
+  "license": "LICENSE"
 }
