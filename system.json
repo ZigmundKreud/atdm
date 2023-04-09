@@ -35,10 +35,82 @@
   ],
   "packs": [
     {
+      "name": "actors",
+      "label": "Prétirés",
+      "system": "atdm",
+      "path": "packs/actors.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "Historiques",
+      "system": "atdm",
+      "path": "packs/backgrounds.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "cultures",
+      "label": "Cultures",
+      "system": "atdm",
+      "path": "packs/cultures.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "equipment",
+      "label": "Équipement",
+      "system": "atdm",
+      "path": "packs/equipment.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "kins",
+      "label": "Ascendances",
+      "system": "atdm",
+      "path": "packs/kins.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "system": "atdm",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "private": false,
+      "flags": {}
+    },
+    {
       "name": "skills",
-      "label": "Skills",
+      "label": "Compétences",
       "system": "atdm",
       "path": "packs/skills.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "spelllores",
+      "label": "Savoirs Magiques",
+      "system": "atdm",
+      "path": "packs/spelllores.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "vocations",
+      "label": "Vocations",
+      "system": "atdm",
+      "path": "packs/vocations.db",
       "type": "Item",
       "private": false,
       "flags": {}
