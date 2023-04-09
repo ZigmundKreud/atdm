@@ -1,0 +1,84 @@
+[
+  { "roll" : [0,5], "caption" : "Votre coup est puissant, mais porté à plat.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +10 Dégâts.", "attackerEffect" : "Attaquant : Maladresse d’Arme (utilisez la Table de Maladresse appropriée).", "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [6,20], "caption" : "Votre frappe ripe le long du corps de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +6 Dégâts.", "attackerEffect" : null, "extraDmg" : "6", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [21,35], "caption" : "Votre coup est solidement porté.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +10 Dégâts.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [36,50], "caption" : "Votre cible l’a bien senti, celui-là.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +13 Dégâts.", "attackerEffect" : null, "extraDmg" : "13", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [51,65], "caption" : "Votre cible titube sous la force de votre coup.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Sonnée, -10 aux actions.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [66,79], "caption" : "Votre coup provoque une entaille.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +10 Dégâts, Saignement (3 PV), Sonnée.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":3,"duration":null},{"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [80,89], "caption" : "Vous portez un coup déchirant sur un membre supérieur.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +15 Dégâts, Saignement (3 PV), Sonnée, -10 aux actions.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"bleeding", "value":3,"duration":null},{"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [90,99], "caption" : "Vous portez un coup précis sur un membre inférieur.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +16 Dégâts, Saignement (5 PV), Sonnée, -20 aux actions.", "attackerEffect" : null, "extraDmg" : "16", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"bleeding", "value":5,"duration":null},{"type":"stunned", "value":null,"duration":null} ] },
+    {"label" : "Cible ayant quatre pattes ou plus", "targetEffect" : "Cible : -10 aux actions uniquement.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [  ] }
+  ]},
+  { "roll" : [100], "caption" : "Vous frappez au cou, détruisant les principaux vaisseaux sanguins.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : +15 Dégâts, Sonnée, Mourante, meurt après 6 Rounds, mais peut agir entre-temps.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"dying", "value":null,"duration":6} ] },
+    {"label" : "Cible n’ayant pas de cou ou de vaisseaux sanguins", "targetEffect" : "Cible : +15 Dégâts, Sonnée, -20 aux actions uniquement.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [101,106], "caption" : "Vous frappez à plat sur la tête de la cible.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : +15 Dégâts, tombe inconsciente.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"inconscious", "value":null,"duration":null} ] },
+    {"label" : "Cible sans tête ou portant une armure protégeant la tête", "targetEffect" : "Cible : +15 Dégâts, Sonnée uniquement.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [107,109], "caption" : "Vous écrasez le pied de la cible.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : +15 Dégâts, À Terre, Sonnée, -40 aux actions.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null} ] },
+    {"label" : "Cible ayant plus de deux pieds ou ne s’en servant pas", "targetEffect" : "Cible : -10 aux actions uniquement.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [  ] }
+  ]},
+  { "roll" : [110], "caption" : "En plein dans l’aine !", "options" : [
+    {"label" : "Cible mammifère", "targetEffect" : "Cible : +20 Dégâts, Sonnée, -30 aux actions, tétanisée de douleur, stérilité définitive.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"paralyzed", "value":null,"duration":null} ] },
+    {"label" : "Cible non mammifère", "targetEffect" : "Cible : +20 Dégâts uniquement.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [111,116], "caption" : "Vous frappez dans la zone des yeux et aveuglez temporairement la cible.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : Sonnée et aveugle pendant 6 Rounds, puis -30 aux actions.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":6},{"type":"blind", "value":null,"duration":6} ] },
+    {"label" : "Cible sans yeux ou n’en ayant pas besoin", "targetEffect" : "Cible : +20 Dégâts uniquement.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [117,119], "caption" : "Votre frappe sectionne une artère principale sur un membre inférieur.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : Saignement (8 PV), -20 aux actions.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"bleeding", "value":8,"duration":null} ] },
+    {"label" : "Cible sans système circulatoire", "targetEffect" : "Cible : +20 Dégâts, Sonnée uniquement.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [120], "caption" : "En pleine poitrine !", "options" : [
+    {"label" : "Cible ne portant pas d’armure", "targetEffect" : "Cible : coeur détruit, mort instantanée.", "attackerEffect" : "Attaquant : Arme coincée dans ou sous le corps de la cible pendant 3 Rounds.", "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null} ] },
+    {"label" : "Cible portant une armure ou n’ayant pas de poitrine", "targetEffect" : "Cible : +30 Dégâts, Sonnée.", "attackerEffect" : "Attaquant : subit une Maladresse d’Arme.", "extraDmg" : "30", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"dying", "value":null,"duration":12} ] }
+  ]},
+  { "roll" : [121,126], "caption" : "Vous sectionnez un membre supérieur.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : +15 Dégâts, Saignement (6 PV), Sonnée, membre inutilisable.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":6,"duration":null},{"type":"stunned", "value":null,"duration":null} ] },
+    {"label" : "Cible sans membres", "targetEffect" : "Cible : +25 Dégâts uniquement.", "attackerEffect" : null, "extraDmg" : "25", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [127,129], "caption" : "Vous frappez droit à la tête et fracturez le crâne de la cible.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : +20 Dégâts, Inapte.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"inconscious", "value":null,"duration":null},{"type":"incapacitated", "value":null,"duration":null} ] },
+    {"label" : "Cible n’ayant pas de crâne ou portant une armure Rigide protégeant la tête", "targetEffect" : "Cible : +30 Dégâts, Sonnée, attaquant subissant une Maladresse d’Arme.", "attackerEffect" : "Attaquant : subit une Maladresse d’Arme.", "extraDmg" : "30", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [130], "caption" : "En pleine bouche !", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : Mort instantanée.", "attackerEffect" : "Attaquant : Arme coincée dans les os du palais pendant 3 Rounds.", "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null} ] },
+    {"label" : "Cible n’ayant pas de bouche", "targetEffect" : "Cible : +40 Dégâts, Sonnée.", "attackerEffect" : "Attaquant : subit une Maladresse d’Arme.", "extraDmg" : "40", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [131,136], "caption" : "Vous frappez avec force au niveau du dos et brisez la colonne vertébrale de la cible.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : À Terre, paralysée à partir de la taille.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"paralyzed", "value":null,"duration":null} ] },
+    {"label" : "Cible sans colonne vertébrale", "targetEffect" : "Cible : coupée en deux, mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [137,140], "caption" : "Vous éventrez la cible et ses viscères se répandent.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Sonnée, Mourante, meurt après 6 Rounds, mais peut agir entre-temps à -40.", "attackerEffect" : "Attaquant : est recouvert de fluides corporels.", "extraDmg" : null, "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"dying", "value":null,"duration":6} ] }
+  ]},
+  { "roll" : [141,146], "caption" : "Votre frappe vicieuse remonte vers le crâne.", "options" : [
+    {"label" : "Cible normale", "targetEffect" : "Cible : +30 Dégâts, mâchoire brisée, coma.", "attackerEffect" : null, "extraDmg" : "30", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"inconscious", "value":null,"duration":null} ] },
+    {"label" : "Cible sans tête", "targetEffect" : "Cible : +50 Dégâts uniquement.", "attackerEffect" : null, "extraDmg" : "50", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [  ] }
+  ]},
+  { "roll" : [147,149], "caption" : "En plein dans l’oeil !", "options" : [
+    {"label" : null, "targetEffect" : "Cible : mort instantanée, tombe sur l’attaquant.", "attackerEffect" : "Attaquant : coincé sous la cible pendant 1 Round, +20 Dégâts et Bloqué 5 Rounds si la cible était notablement plus grande que lui.", "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null} ] }
+  ]},
+  { "roll" : [150], "caption" : "Votre coup brutal détruit un organe vital.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : mort instantanée.", "attackerEffect" : "Attaquant : bonus de +20 pour intimider les adversaires proches au prochain Round.", "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null} ] }
+  ]}
+]

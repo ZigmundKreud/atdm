@@ -11,7 +11,7 @@ export class AtDMActorSheet extends ActorSheet {
       template: "systems/atdm/templates/actors/actor-sheet.hbs",
       top: 0,
       left: 0,
-      width: 715,
+      width: 750,
       height: 900,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "stats" }]
     });

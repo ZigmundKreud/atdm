@@ -6,7 +6,7 @@ import {preloadHandlebarsTemplates} from "./system/templates.mjs";
 import {registerHandlebarsHelpers} from "./system/helpers.mjs";
 import registerHooks from "./system/hooks.mjs";
 import {ATDM} from "./system/config.mjs";
-import {Tables} from "./tables/weapons/tables.mjs";
+import {Tables} from "./system/tables.mjs";
 import {AtDMActorSheet} from "./actor/actor-sheet.mjs";
 
 Hooks.once('init', async function () {

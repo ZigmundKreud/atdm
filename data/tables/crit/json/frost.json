@@ -1,0 +1,85 @@
+[
+  { "roll" : [0,5], "caption" : "Juste une brise fraîche.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +0 Dégâts.", "attackerEffect" : null, "extraDmg" : "0", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [6,20], "caption" : "Un vent froid se lève.", "options" : [
+    {"label" : "Cible portant une cape ou des vêtements épais", "targetEffect" : "Cible : +3 Dégâts.", "attackerEffect" : null, "extraDmg" : "3", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] },
+    {"label" : "Cible ne portant pas de cape ou de vêtement épais", "targetEffect" : "Cible : +6 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "6", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [21,35], "caption" : "Le froid mordant provoque des engelures.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +7 Dégâts, Saignement (1 PV).", "attackerEffect" : null, "extraDmg" : "7", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":1,"duration":null}] }
+  ]},
+  { "roll" : [36,50], "caption" : "Vous provoquez un coup de froid sur la poitrine de la cible.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +5 Dégâts.", "attackerEffect" : null, "extraDmg" : "5", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : ce qui précède, Saignement (2 PV), -10 aux actions.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":2,"duration":null}] }
+  ]},
+  { "roll" : [51,65], "caption" : "Le froid s’insinue dans les lombaires de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +9 Dégâts, Sonnée, les objets de bois portés sur le dos sont maintenant gelés et cassants, inutilisables.", "attackerEffect" : null, "extraDmg" : "9", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [66,79], "caption" : "Le froid s’insinue jusque dans le bassin de la cible.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +3 Dégâts.", "attackerEffect" : null, "extraDmg" : "3", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : +12 Dégâts, Sonnée, engelure pelvienne, stérilité permanente.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [80,89], "caption" : "Votre coup percute la cible dans le dos, la projetant au sol.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +10 Dégâts, Sonnée, désarmée.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"disarmed", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [90,99], "caption" : "Le froid mordant s’en prend aux mains de la cible (1d10 : 1-4 gauche, 5-8 droite, 9-10 les deux).", "options" : [
+    {"label" : "Cible portant des gants", "targetEffect" : "Cible : +8 Dégâts, désarmée.", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"disarmed", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de gants : perd 1d5 (ou 1d10) doigts, -5 aux actions pour chaque doigt perdu.", "targetEffect" : "Cible : perd 1d5 (ou 1d10) doigts, -5 aux actions pour chaque doigt perdu.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "special", "activityMalusDuration" : null, "injury" : "special",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [100], "caption" : "Le froid mordant gèle le visage de la cible.", "options" : [
+    {"label" : "Cible portant des fourrures ou des vêtements épais autour de la tête", "targetEffect" : "Cible : +10 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de fourrure ou de vêtement épais autour de la tête", "targetEffect" : "Cible : coma d’un mois, perte du nez à la suite de graves engelures.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [101,106], "caption" : "La jambe de la cible gèle.", "options" : [
+    {"label" : "Cible portant une armure ou un vêtement épais couvrant les jambes", "targetEffect" : "Cible : +10 Dégâts, À Terre, Sonnée.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure ou de vêtement épais couvrant les jambes", "targetEffect" : "Cible : jambe inutilisable, -40 aux actions.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [107,109], "caption" : "Le coup de froid gèle la tempe de la cible.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +8 Dégâts, Sonnée, -10 aux actions.", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : +12 Dégâts, oreille gelée provoquant une pénalité permanente de -50 à la Perception auditive et -20 à tous les autres Jets de Perception.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [110], "caption" : "Le coup de froid gèle la nuque de la cible.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +8 Dégâts, Saignement (2 PV), Sonnée.", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"bleeding", "value":2,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : coma pendant 3 semaines, paralysie à partir du cou à son réveil.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null},{"type":"paralyzed", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [111,116], "caption" : "Le froid se change en une fine stalactite de glace venant percuter la cible.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : Saignement (2 PV), À Terre, Sonnée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"bleeding", "value":2,"duration":null},{"type":"prone", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : +13 Dégâts, -40 aux actions, engelures et un os cassé.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [117,119], "caption" : "Le froid gèle les pieds de la cible.", "options" : [
+    {"label" : "Cible portant des bottes lourdes", "targetEffect" : "Cible : +5 Dégâts, À Terre, Sonnée, bottes détruites.", "attackerEffect" : null, "extraDmg" : "5", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de bottes", "targetEffect" : "Cible : +20 Dégâts, -60 aux actions.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-60", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [120], "caption" : "Le blizzard gelé frappe la cible en plein visage.", "options" : [
+    {"label" : "Cible portant des vêtements épais couvrant la tête", "targetEffect" : "Cible : +12 Dégâts, Saignement (2 PV), Sonnée, -20 aux actions.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"bleeding", "value":2,"duration":null}] },
+    {"label" : "Cible ne portant pas de vêtement épais couvrant la tête", "targetEffect" : "Cible : +12 Dégâts, Saignement (2 PV), Sonnée, -20 aux actions, aveugle, coma.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"bleeding", "value":2,"duration":null},{"type":"inconscious", "value":null,"duration":null},{"type":"blind", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [121,126], "caption" : "Le froid referme ses mâchoires de glace sur le bras de la cible (1d10 : 1-5 bras d’arme, 6-10 bras du bouclier).", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +10 Dégâts, Saignement (3 PV), Sonnée, lâche tout ce qu’elle tient.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"bleeding", "value":3,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : bras gelé, brisé et inutilisable, inconscience, -50 aux actions.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-50", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [127,129], "caption" : "La cible inhale un air beaucoup trop glacial.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +15 Dégâts, Sonnée, effectue un JdS-R contre un Niveau d’Attaque de 10 et, en cas d’échec, Mourante, meurt après 6 Rounds par congélation des fluides vitaux.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [130], "caption" : "Le souffle glacial concentré sur le torse gèle la poitrine, brise les côtes et congèle le coeur et les poumons de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Mourante, meurt après 3 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":3}] }
+  ]},
+  { "roll" : [131,136], "caption" : "Le froid intense enserre la poitrine de la cible.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +10 Dégâts, À Terre, Sonnée.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : Mourante, meurt après 10 Rounds d’une insuffisance cardio-respiratoire.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":10}] }
+  ]},
+  { "roll" : [137,140], "caption" : "La cible, engloutie par le froid, commence à geler sur place.", "options" : [
+    {"label" : "Cible portant une armure ou des vêtements épais", "targetEffect" : "Cible : +20 Dégâts, Sonnée, -30 aux actions.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure ou de vêtement épais", "targetEffect" : "Cible : Mourante, meurt après 12 Rounds passés à frissonner et à exhaler le peu de chaleur restant dans le corps.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":12}] }
+  ]},
+  { "roll" : [141,146], "caption" : "Les deux jambes de la cible gèlent.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +30 Dégâts, À Terre, Sonnée, -100 aux actions.", "attackerEffect" : null, "extraDmg" : "30", "activityMalus" : "-100", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [147,149], "caption" : "La tête de la cible est gelée. Bien conservée, mais tout de même morte.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [150], "caption" : "La cible est changée en statue de glace, tombe au sol et se brise en mille morceaux.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]}
+]

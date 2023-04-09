@@ -1,0 +1,93 @@
+[
+  { "roll" : [0,5], "caption" : "Votre coup est faible et porte à plat.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : pas de dégâts supplémentaires.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+
+  ]},
+  { "roll" : [6,20], "caption" : "Votre coup glisse le long de l’épaule.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +5 Dégâts.", "attackerEffect" : null, "extraDmg" : "5", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+
+  ]},
+  { "roll" : [21,35], "caption" : "Votre coup atteint la cuisse et provoque une vive douleur.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +5 Dégâts, -10 aux actions.", "attackerEffect" : null, "extraDmg" : "5", "activityMalus" : "-10", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ ] }
+
+  ]},
+  { "roll" : [36,50], "caption" : "Votre coup percute un avant-bras.", "options" : [
+    {"label" : "Cible avec arme ou bouclier", "targetEffect" : "Cible : lâche son arme ou son bouclier.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] },
+    {"label" : "Cible sans arme ni bouclier", "targetEffect" : "Cible : Sonnée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [51,65], "caption" : "Vous frappez droit dans les côtes, la cible en a le souffle coupé.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +4 Dégâts, Sonnée, -40 aux actions pendant 1 Round.", "attackerEffect" : null, "extraDmg" : "4", "activityMalus" : "-40", "activityMalusDuration" : "1", "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+
+  ]},
+  { "roll" : [66,79], "caption" : "Vous frappez aux côtes par le côté.", "options" : [
+    {"label" : "Cible portant une armure Rigide", "targetEffect" : "Cible : +6 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "6", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure Rigide", "targetEffect" : "Cible : +6 Dégâts, Sonnée, 1d5 côtes cassées, -5 aux actions pour chaque côte cassée.", "attackerEffect" : null, "extraDmg" : "6", "activityMalus" : "special", "activityMalusDuration" : null, "injury" : "special",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [80,89], "caption" : "Votre coup brise la main d’arme de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +8 Dégâts, Sonnée, -20 aux actions, lâche son arme.", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+
+  ]},
+  { "roll" : [90,99], "caption" : "Votre coup s’enfonce dans l’abdomen de la cible et provoque une douleur fulgurante.", "options" : [
+    {"label" : "Cible portant une armure Rigide", "targetEffect" : "Cible : +12 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure Rigide", "targetEffect" : "Cible : +15 Dégâts, Sonnée, -40 aux actions, muscles meurtris.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [100], "caption" : "Vous frappez à plat sur la tête, la commotion perce les tympans.", "options" : [
+    {"label" : "Cible portant un casque", "targetEffect" : "Cible : +10 Dégâts, Sonnée, -20 aux actions, -40 à la Perception auditive.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de casque", "targetEffect" : "Cible : +30 Dégâts, Sonnée, -20 aux actions, -40 à la Perception auditive, fracture du crâne, coma pendant 4 semaines.", "attackerEffect" : null, "extraDmg" : "30", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [101,106], "caption" : "Vous frappez à la cuisse.", "options" : [
+    {"label" : "Cible portant une armure protégeant les jambes", "targetEffect" : "Cible : +12 Dégâts, Sonnée, -20 aux actions.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure protégeant les jambes", "targetEffect" : "Cible : +15 Dégâts, Sonnée, fémur fracturé, -40 aux actions à la place.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [107,109], "caption" : "Votre coup disloque le genou de la cible.", "options" : [
+    {"label" : "Cible portant une armure protégeant les jambes", "targetEffect" : "Cible : +8 Dégâts, À Terre, -30 aux actions.", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure protégeant les jambes", "targetEffect" : "Cible : +20 Dégâts, -60 aux actions.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-60", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [110], "caption" : "Votre frappe s’enfonce dans les lombaires.", "options" : [
+    {"label" : "Cible portant une armure protégeant le torse", "targetEffect" : "Cible : +10 Dégâts, À Terre, Sonnée, -20 aux actions.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure protégeant le torse", "targetEffect" : "Cible : -50 aux actions, vertèbre fêlée, risque de rester paralysée à partir de la taille si elle n’est pas traitée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-50", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [111,116], "caption" : "Votre coup heurte puissamment la poitrine de la cible.", "options" : [
+    {"label" : "Cible portant une armure Rigide protégeant le torse", "targetEffect" : "Cible : +10 Dégâts, À Terre, Sonnée, lâche toutes ses armes.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure Rigide protégeant le torse", "targetEffect" : "Cible : +20 Dégâts, -40 aux actions, sternum enfoncé.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [117,119], "caption" : "Vous frappez l’un des deux avant-bras (50% D, 50% G) et en fracturez les os.", "options" : [
+    {"label" : "Cible touchée au bras de bouclier", "targetEffect" : "Cible : Sonnée, bouclier inutilisable.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible touchée au bras d’arme", "targetEffect" : "Cible : +10 Dégâts, Sonnée, -30 aux actions, arme lâchée.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [120], "caption" : "Vous frappez au cou.", "options" : [
+    {"label" : "Cible portant une armure Rigide protégeant le cou", "targetEffect" : "Cible : +12 Dégâts, Sonnée, -20 aux actions, incapable de parler ou manger de la nourriture solide jusqu’à ce qu’elle reçoive des soins.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"silenced", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas une telle armure", "targetEffect" : "Cible : Sonnée, trachée écrasée, Mourante, meurt après 12 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"dying", "value":null,"duration":12}] }
+  ]},
+  { "roll" : [121,126], "caption" : "Votre coup brise un tibia.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +15 Dégâts, À Terre, Sonnée, -40 aux actions.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+
+  ]},
+  { "roll" : [127,129], "caption" : "Votre coup désarticule une épaule, le bras est cassé et inutilisable.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +15 Dégâts, Sonnée, -40 aux actions.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+
+  ]},
+  { "roll" : [130], "caption" : "Votre coup enfonce la mâchoire de la cible.", "options" : [
+    {"label" : "Cible portant un heaume (avec visière)", "targetEffect" : "Cible : +20 Dégâts, Sonnée, -30 aux actions, mâchoire brisée, incapable de parler ou manger de la nourriture solide jusqu’à ce qu’elle reçoive des soins.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"silenced", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de heaume", "targetEffect" : "Cible : mâchoire pénétrant les os du crâne, mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [131,136], "caption" : "Votre coup brise le coude du bras d’arme.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +20 Dégâts, Sonnée, -40 aux actions, bras inutilisable.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+
+  ]},
+  { "roll" : [137,140], "caption" : "Votre coup brise les os d’une hanche.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +35 Dégâts, À Terre, Sonnée, -75 aux actions.", "attackerEffect" : null, "extraDmg" : "35", "activityMalus" : "-75", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+
+  ]},
+  { "roll" : [141,146], "caption" : "Votre coup heurte puissamment l’abdomen et écrase les entrailles de la cible.", "options" : [
+    {"label" : "Cible portant une armure Rigide", "targetEffect" : "Cible : +12 Dégâts, Sonnée, -20 aux actions.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas une telle protection", "targetEffect" : "Cible : +20 Dégâts, Saignement (12 PV), Sonnée, -40 aux actions, hémorragie interne.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"bleeding", "value":12,"duration":null}] }
+  ]},
+  { "roll" : [147,149], "caption" : "Votre coup est si puissant qu’il broie la cage thoracique et son contenu.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : inconsciente, Mourante, meurt après 6 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"inconscious", "value":null,"duration":null},{"type":"dying", "value":null,"duration":6}] }
+
+  ]},
+  { "roll" : [150], "caption" : "Votre coup fait exploser la tête de la cible et en détruit le cerveau.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]}
+]

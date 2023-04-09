@@ -14,6 +14,13 @@
 </div>
 
 <div class="form-group">
+    <label>{{localize "ATDM.ui.slug"}}</label>
+    <div class="cell">
+        <input class="field-value" name="system.slug" type="text" readonly value="{{system.slug}}" data-dtype="String" />
+    </div>
+</div>
+
+<div class="form-group">
     <label>{{localize "ATDM.ui.properties"}}</label>
     <div class="form-fields">
         {{#each system.properties as |prop idx|}}

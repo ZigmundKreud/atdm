@@ -442,7 +442,7 @@ Copied from dnd5e
 }
 .atdm.sheet .window-content form .container.skills-container .container-body {
   border: none;
-  font-size: smaller;
+  font-size: small;
 }
 .atdm.sheet .window-content form .container.skills-container .container-body .container-row {
   height: 20px;
@@ -475,6 +475,9 @@ Copied from dnd5e
 .atdm.sheet .window-content form .container .container-body .container-row .form-fields.center {
   margin-left: 5px;
   border-bottom: 1px solid #D3D1D1;
+}
+.atdm.sheet.actor {
+  min-width: 750px;
 }
 .atdm.sheet.actor form {
   background-image: url("/systems/atdm/ui/assets/deco-bottom-left.webp");
@@ -520,6 +523,10 @@ Copied from dnd5e
   border-radius: 0;
   height: 200px;
   width: 150px;
+}
+.atdm.sheet.item {
+  min-width: 510px;
+  min-height: 560px;
 }
 .atdm.sheet.item .form-group {
   background: white;

@@ -43,34 +43,8 @@
 <!--                    </div>-->
 <!--                </div>-->
             </div>
-            <div class="portrait">
+        <div class="portrait">
                 <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}"/>
-            </div>
-        </div>
-        <div class="passions-container container">
-            <div class="container-header flexrow">
-                <div class="header-field left gray flex1"><h4>{{localize "ATDM.ui.passions"}}</h4></div>
-                <div class="header-field flex3"></div>
-            </div>
-            <div class="container-body">
-                <div class="passion container-row flexrow no-wrap">
-                    <div class="form-fields left flex1">{{localize "ATDM.ui.motivation"}}</div>
-                    <div class="form-fields left flex3">
-                        <input class="field-value sans" name="system.motivation" type="text" value="{{system.motivation}}" placeholder="{{localize "ATDM.ui.motivation"}}" data-dtype="String"/>
-                    </div>
-                </div>
-                <div class="passion container-row flexrow no-wrap">
-                    <div class="form-fields left flex1">{{localize "ATDM.ui.nature"}}</div>
-                    <div class="form-fields left flex3">
-                        <input class="field-value sans" name="system.nature" type="text" value="{{system.nature}}" placeholder="{{localize "ATDM.ui.nature"}}" data-dtype="String"/>
-                    </div>
-                </div>
-                <div class="passion container-row flexrow no-wrap">
-                    <div class="form-fields left flex1">{{localize "ATDM.ui.allegiance"}}</div>
-                    <div class="form-fields left flex3">
-                        <input class="field-value sans" name="system.allegiance" type="text" value="{{system.allegiance}}" placeholder="{{localize "ATDM.ui.allegiance"}}" data-dtype="String"/>
-                    </div>
-                </div>
             </div>
         </div>
         {{!-- Sheet Tab Navigation --}}
@@ -99,7 +73,7 @@
                 {{!> "systems/atdm/templates/actors/parts/actor-skills-partial.hbs"}}
             </div>
             {{!-- Biography Tab --}}
-            <div class="tab flexrow description active" data-group="primary" data-tab="description">
+            <div class="tab flexrow description active bg-blue" data-group="primary" data-tab="description">
                 {{editor enrichedDescription target="system.description" button=true owner=owner editable=editable}}
             </div>
         </section>

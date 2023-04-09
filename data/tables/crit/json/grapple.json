@@ -1,0 +1,77 @@
+[
+  { "roll" : [0,5], "caption" : "Vous attrapez la cible sans parvenir à la bloquer.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : pas de Dégâts supplémentaires.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [6,20], "caption" : "Votre prise est trop légère, la cible se libère.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +2 Dégâts.", "attackerEffect" : null, "extraDmg" : "2", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [21,35], "caption" : "Vous saisissez le bras de la cible, mais elle parvient à se libérer.", "options" : [
+    {"label" : "Cible portant d’amples manches longues", "targetEffect" : "Cible : +3 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "3", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [36,50], "caption" : "Vous entravez la jambe de la cible mais, en tournant sur elle-même, elle parvient à se libérer.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +3 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "3", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [51,65], "caption" : "Vous agrippez le bras du bouclier.", "options" : [
+    {"label" : "Cible portant un bouclier", "targetEffect" : "Cible : -50 aux actions jusqu’à ce qu’elle lâche son bouclier ou se libère.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-50", "activityMalusDuration" : "special", "injury" : "serious",  "activeEffects": [ ] },
+    {"label" : "Cible ne portant pas de bouclier", "targetEffect" : "Cible : Sonnée, -30 aux actions jusqu’à ce qu’elle se libère.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [66,79], "caption" : "Vous agrippez le bras d’arme.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +4 Dégâts, Sonnée, -20 aux actions, désarmée, entorse du poignet.", "attackerEffect" : null, "extraDmg" : "4", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [80,89], "caption" : "Vous enserrez la poitrine de la cible.", "options" : [
+    {"label" : "Cible portant une armure Rigide", "targetEffect" : "Cible : Sonnée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure Rigide", "targetEffect" : "Cible : 1d10 côtes cassées, +2 Dégâts et -5 aux actions pour chaque côte cassée.", "attackerEffect" : null, "extraDmg" : "2", "activityMalus" : "special", "activityMalusDuration" : null, "injury" : "special",  "activeEffects": [ ] }
+  ]},
+  { "roll" : [90,99], "caption" : "Vous entravez la jambe de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +3 Dégâts, À Terre, Bloquée, -30 aux actions.", "attackerEffect" : null, "extraDmg" : "3", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"held", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [100], "caption" : "Vous entravez les deux jambes de la cible, qui tombe au sol.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +9 Dégâts, À Terre, Bloquée, ne peut pas se relever, -40 aux actions jusqu’à ce qu’elle se libère.", "attackerEffect" : null, "extraDmg" : "9", "activityMalus" : "-40", "activityMalusDuration" : "special", "injury" : "serious",  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"held", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [101,106], "caption" : "Vous entravez le bras d’arme et, en cherchant à se libérer, la cible a les ligaments déchirés.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Bloquée, Sonnée, désarmée, -30 aux actions ; si l’attaquant maintient la saisie : 5 Dégâts par Round.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"held", "value":null,"duration":null},{"type":"disarmed", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [107,109], "caption" : "Votre prise enserre le cou et une épaule, vous liant à la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Bloquée, -50 aux actions.", "attackerEffect" : "Attaquant : Bloqué, -50 aux actions, peut mettre fin à la saisie à tout moment.", "extraDmg" : null, "activityMalus" : "-50", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"held", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [110], "caption" : "Votre cible est complètement immobilisée au sol, mais est toujours consciente.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : peut essayer de se libérer à -60 ; si l’attaquant maintient la saisie : 8 Dégâts par Round.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [111,116], "caption" : "Votre puissante prise déséquilibre la cible.", "options" : [
+    {"label" : "Cible portant une armure Rigide", "targetEffect" : "Cible : +8 Dégâts, Sonnée, Bloquée, À Terre ; si l’attaquant maintient la saisie : 4 Dégâts par Round.", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null},{"type":"held", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure Rigide", "targetEffect" : "Cible : +16 Dégâts, Sonnée, Bloquée, À Terre, -30 aux actions, côtes fêlées ; si l’attaquant maintient la saisie : 4 Dégâts par Round.", "attackerEffect" : null, "extraDmg" : "16", "activityMalus" : "-30", "activityMalusDuration" : "special", "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"held", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [117,119], "caption" : "Votre prise au bras d’arme brise net le poignet.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +10 Dégâts, Sonnée, désarmée, -50 aux actions ; si l’attaquant maintient la saisie : +4 Dégâts par Round.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"disarmed", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [120], "caption" : "Vous garrottez le cou de la cible.", "options" : [
+    {"label" : "Cible portant une armure Rigide protégeant le cou", "targetEffect" : "Cible : Sonnée, -60 aux actions jusqu’à ce qu’elle se libère.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-60", "activityMalusDuration" : "special", "injury" : "crippling",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"disarmed", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d'armure Rigide protégeant le cou", "targetEffect" : "Cible : strangulation, Mourante, meurt après 6 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":6}] }
+  ]},
+  { "roll" : [121,126], "caption" : "Votre prise désarticule le bras et projette l’adversaire au sol.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Sonnée, À Terre, bras inutilisable, la cible lâche tout ce qu’elle tenait ; si l’attaquant maintient la saisie : 8 Dégâts par Round.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [127,129], "caption" : "La cible est prise au cou par l’arrière.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +5 Dégâts, Sonnée ; si l’attaquant maintient la saisie : 5 Dégâts par Round, -40 aux actions.", "attackerEffect" : null, "extraDmg" : "5", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [130], "caption" : "Vous bloquez fermement le cou de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Sonnée, -60 aux actions, perd connaissance en 6 Rounds si ne parvient pas à se libérer.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-60", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [131,136], "caption" : "Le pied de la cible est enchevêtré, la cible tombe mal.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Sonnée, arme et bras brisés, -50 aux actions.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-50", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [137,140], "caption" : "La cible est agrippée au niveau de la ceinture, projetée dans les airs, et retombe sur la tête.", "options" : [
+    {"label" : "Cible portant un casque", "targetEffect" : "Cible : +12 Dégâts, Sonnée, -30 aux actions, entorse cervicale.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de casque", "targetEffect" : "Cible : crâne enfoncé et nuque brisée, mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [141,146], "caption" : "Les jambes de la cible sont enchevêtrées et la cible tombe.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Inapte, -80 aux actions à son réveil en raison de multiples fractures aux jambes.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-80", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ {"type":"incapacitated", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [147,149], "caption" : "La cible est complètement enchevêtrée et sans défense, à la merci de l’attaquant.", "options" : [
+    {"label" : null, "targetEffect" : null, "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"held", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [150], "caption" : "La cible est saisie si fortement à la tête que son crâne en est écrasé.", "options" : [
+    {"label" : "Cible portant un casque : coma.", "targetEffect" : "Cible : coma.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"incapacitated", "value":null,"duration":null},{"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de casque", "targetEffect" : "Cible : mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]}
+]

@@ -55,6 +55,7 @@
           "level" : 0,
           "status" : 0
         },
+        "bgPoints" : 0,
         "movement" : {
           "encumbranceLevel" : 0,
           "moveRate" : 0
@@ -77,7 +78,7 @@
     }
   },
   "Item": {
-    "types": ["equipment", "skill"],
+    "types": ["equipment", "skill", "kin", "culture", "background", "vocation", "spelllore"],
     "templates": {
       "base": {
         "slug" : "",
@@ -92,11 +93,46 @@
       "quantity": 1,
       "weight": 0,
       "price" : 0,
+      "fare" : "",
+      "availability" : "",
       "stackable" : {},
       "reloadable" : {},
-      "equipable" : {
-        "equiped" : false
+      "equiped" : false,
+      "qualities" : [],
+      "armor" : {
+        "type" : "",
+        "zones" : [],
+        "maxSWIToDef" : -1,
+        "moveActionsPenalty" : 0,
+        "cmbPenalty" : 0,
+        "perceptPenalty" : 0,
+        "meleeDEFBonus" : 0,
+        "missileDEFBonus" : 0
       },
+      "weapon" : {
+        "hands" : 1,
+        "skills" : [
+          {
+            "id": "",
+            "mod" : "0"
+          }
+        ],
+        "clumsyRange" : 0,
+        "length" : "",
+        "attackTable" : "",
+        "maxResult" : 0,
+        "maxResultVariesWithSize" : false,
+        "primaryCrit" : "-",
+        "alterCrit" : "-",
+        "baseRange" : null
+      },
+      "consumable" : {
+        "chargeType" : "",
+        "chargeId" : "",
+        "destroyIfEmpty" : false,
+        "chargePerUse" : 1
+      },
+      "actions" : [],
       "properties" : {
         "stackable" : false,
         "reloadable" : false,
@@ -125,6 +161,72 @@
         "armor" : false,
         "attack" : false
       }
+    },
+    "kin" : {
+      "templates": [
+        "base"
+      ],
+      "modifiers" : [
+        { "type": "stats" ,"value" : "brn", "mod" : 0 },
+        { "type": "stats" ,"value" : "swi", "mod" : 0 },
+        { "type": "stats" ,"value" : "for", "mod" : 0 },
+        { "type": "stats" ,"value" : "wit", "mod" : 0 },
+        { "type": "stats" ,"value" : "wsd", "mod" : 0 },
+        { "type": "stats" ,"value" : "bea", "mod" : 0 },
+        { "type": "saves" ,"value" : "toughness", "mod" : 0 },
+        { "type": "saves" ,"value" : "willpower", "mod" : 0 },
+        { "type": "resources" ,"value" : "hitPoints", "mod" : 0 },
+        { "type": "resources" ,"value" : "magicPoints", "mod" : 0 },
+        { "type": "resources" ,"value" : "bgPoints", "mod" : 0 },
+        { "type": "resources" ,"value" : "wealth.level", "mod" : 0 }
+      ],
+      "traits" : []
+    },
+    "culture" : {
+      "templates": [
+        "base"
+      ],
+      "modifiers" : [
+        { "type": "skill" ,"value" : "armor", "mod" : 0 },
+        { "type": "stats" ,"value" : "swi", "mod" : 0 },
+        { "type": "stats" ,"value" : "for", "mod" : 0 },
+        { "type": "stats" ,"value" : "wit", "mod" : 0 },
+        { "type": "stats" ,"value" : "wsd", "mod" : 0 },
+        { "type": "stats" ,"value" : "bea", "mod" : 0 },
+        { "type": "saves" ,"value" : "toughness", "mod" : 0 },
+        { "type": "saves" ,"value" : "willpower", "mod" : 0 },
+        { "type": "resources" ,"value" : "hitPoints", "mod" : 0 },
+        { "type": "resources" ,"value" : "magicPoints", "mod" : 0 },
+        { "type": "resources" ,"value" : "bgPoints", "mod" : 0 },
+        { "type": "resources" ,"value" : "wealth.level", "mod" : 0 }
+      ]
+    },
+    "background" : {
+      "templates": [
+        "base"
+      ]
+    },
+    "vocation" : {
+      "templates": [
+        "base"
+      ]
+    },
+    "spelllore" : {
+      "templates": [
+        "base"
+      ],
+      "spells" :[
+        {
+          "weave" : 1,
+          "name" : "",
+          "img" : "",
+          "slug" : "",
+          "range" : null,
+          "aoe" : "",
+          "duration" : null,
+          "save" : false
+        }
+      ]
     }
   }
 }

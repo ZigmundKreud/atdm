@@ -1,0 +1,79 @@
+[
+  { "roll" : [0,5], "caption" : "L’air autour de la cible se réchauffe.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +0 Dégâts.", "attackerEffect" : null, "extraDmg" : "0", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [6,20], "caption" : "La chaleur est intense, la cible transpire beaucoup, mais pas d’effet supplémentaire.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +3 Dégâts.", "attackerEffect" : null, "extraDmg" : "3", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ ] }
+  ]},
+  { "roll" : [21,35], "caption" : "La cible souffre de brûlures superficielles mineures.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +8 Dégâts, Saignement (1 PV).", "attackerEffect" : null, "extraDmg" : "8", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":1,"duration":null}] }
+  ]},
+  { "roll" : [36,50], "caption" : "Les émanations brûlantes aveuglent la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Sonnée.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [51,65], "caption" : "Les vêtements de la cible prennent feu.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : 8 Dégâts par Round jusqu’à ce que le feu soit éteint, il faut 2 Actions Complètes pour éteindre le feu, tous les vêtements sont détruits après 10 Rounds en feu.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"burning", "value":8,"duration":null}] }
+  ]},
+  { "roll" : [66,79], "caption" : "La cible est projetée par un souffle de flammes hurlantes.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Sonnée, les pièces d’armure et vêtements inflammables couvrant les pieds et les mollets sont détruits.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [80,89], "caption" : "Le feu engloutit le bras d’arme de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +10 Dégâts, Saignement (4 PV), Sonnée, lâche ce qu’elle tient, -30 aux actions.", "attackerEffect" : null, "extraDmg" : "10", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"bleeding", "value":4,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [90,99], "caption" : "Les flammes frappent la cible à la poitrine et la font tourner sur elle-même.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Sonnée, désarmée. La cible doit réaliser un Jet d’Évaluation au début du Round suivant, avec une pénalité Spéciale de -40.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"disarmed", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [100], "caption" : "Projection de flammes en plein visage.", "options" : [
+    {"label" : "Cible portant un casque", "targetEffect" : "Cible : +15 Dégâts, Saignement (3 PV), Sonnée, aveuglée pendant 3 Rounds.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":3,"duration":null},{"type":"stunned", "value":null,"duration":null},{"type":"blind", "value":null,"duration":3}] },
+    {"label" : "Cible ne portant pas de casque", "targetEffect" : "Cible : inconscience, Saignement (6 PV), horrible cicatrice permanente (-10 ALL).", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":6,"duration":null},{"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [101,106], "caption" : "Le feu engloutit le dos de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, À Terre, Sonnée, tous les objets ou vêtements portés sur le dos sont détruits ou inutilisables.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"prone", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [107,109], "caption" : "Les flammes brûlent la cuisse.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +15 Dégâts, Saignement (5 PV), Sonnée, -60 aux actions, jambe inutilisable en raison de la brûlure profonde et de la perte de tissus.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : "-60", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ {"type":"bleeding", "value":5,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [110], "caption" : "Les flammes s’enroulent autour du cou de la cible.", "options" : [
+    {"label" : "Cible portant une armure protégeant le cou", "targetEffect" : "Cible : +12 Dégâts, Saignement (4 PV), Sonnée.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":4,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure protégeant le cou", "targetEffect" : "Cible : coma, Mourante, meurt après 12 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":12},{"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [111,116], "caption" : "Le souffle de feu frappe le bras du bouclier.", "options" : [
+    {"label" : "Cible portant un bouclier", "targetEffect" : "Cible : Saignement (3 PV), Sonnée, -20 aux actions, bouclier détruit.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"bleeding", "value":3,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de bouclier", "targetEffect" : "Cible : +12 Dégâts, Saignement (6 PV), Sonnée, -30 aux actions, bras brûlé jusqu’à l’os et inutilisable.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-30", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"bleeding", "value":6,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [117,119], "caption" : "La cible inhale des fumées incandescentes.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Saignement (6 PV), À Terre et incapable d’effectuer une quelconque action pendant 6 Rounds à cause d’une toux incoercible, puis Sonnée.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":6,"duration":null},{"type":"prone", "value":null,"duration":null},{"type":"incapacitated", "value":null,"duration":6}] }
+  ]},
+  { "roll" : [120], "caption" : "Votre coup frappe la cible à la ceinture et l’embrase presque entièrement.", "options" : [
+    {"label" : "Cible portant une armure", "targetEffect" : "Cible : Saignement (8 PV), À Terre, Sonnée, -60 aux actions.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : "-60", "activityMalusDuration" : null, "injury" : "crippling",  "activeEffects": [ {"type":"bleeding", "value":8,"duration":null},{"type":"stunned", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure", "targetEffect" : "Cible : jambes consumées, Mourante, meurt après 6 Rounds de coma.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":6},{"type":"inconscious", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [121,126], "caption" : "Vous provoquez une puissante explosion de feu qui soulève la cible à 3 mètres de haut.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +15 Dégâts, Sonnée, désarmée ; de plus, la cible subit un Coup Critique Modéré d’Impact à cause de la chute.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"disarmed", "value":null,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [127,129], "caption" : "Un brasier ardent pulvérise le bras d’arme de la cible.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +12 Dégâts, Saignement (8 PV), Sonnée, -40 aux actions, bras inutilisable.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-40", "activityMalusDuration" : null, "injury" : "serious",  "activeEffects": [ {"type":"bleeding", "value":8,"duration":null},{"type":"stunned", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [130], "caption" : "Le feu engloutit la tête de la cible.", "options" : [
+    {"label" : "Cible portant une armure de métal", "targetEffect" : "Cible : l’armure fond sur la tête, Mourante, meurt après 5 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":5}] },
+    {"label" : "Cible portant une armure non métallique", "targetEffect" : "Cible : +12 Dégâts, Saignement (4 PV), Sonnée, -20 aux actions, armure détruite.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : "-20", "activityMalusDuration" : null, "injury" : "minor",  "activeEffects": [ {"type":"bleeding", "value":4,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure", "targetEffect" : "Cible : s’effondre, Mourante, meurt après 10 minutes à cause des brûlures profondes et étendues.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":null},{"type":"prone", "value":null,"duration":null},{"type":"incapacitated", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [131,136], "caption" : "La cible est engloutie par les flammes et subit un choc thermique extrême.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : +50 Dégâts, coma pendant 3 mois.", "attackerEffect" : null, "extraDmg" : "50", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"inconscious", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [137,140], "caption" : "Les flammes enveloppent la tête de la cible.", "options" : [
+    {"label" : "Cible portant un casque", "targetEffect" : "Cible : +15 Dégâts, aveugle pendant 2 semaines.", "attackerEffect" : null, "extraDmg" : "15", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"blind", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas de casque", "targetEffect" : "Cible : Mourante, meurt après 6 Rounds.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":6}] }
+  ]},
+  { "roll" : [141,146], "caption" : "Le souffle enflammé heurte la cible en pleine poitrine.", "options" : [
+    {"label" : "Cible portant une armure protégeant le torse", "targetEffect" : "Cible : +12 Dégâts, Saignement (6 PV), Sonnée, armure détruite.", "attackerEffect" : null, "extraDmg" : "12", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":6,"duration":null},{"type":"stunned", "value":null,"duration":null}] },
+    {"label" : "Cible ne portant pas d’armure protégeant le torse", "targetEffect" : "Cible : +20 Dégâts, Saignement (12 PV), Inapte.", "attackerEffect" : null, "extraDmg" : "20", "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"bleeding", "value":12,"duration":null},{"type":"incapacitated", "value":null,"duration":null}] }
+  ]},
+  { "roll" : [147,149], "caption" : "La cible est totalement engloutie dans un torrent de flammes rugissantes détruisant toute matière organique et provoquant la fusion des pièces métalliques.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : Mourante, meurt après 6 Rounds de douleur, de terreur et de hurlements.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dying", "value":null,"duration":6}] }
+  ]},
+  { "roll" : [150], "caption" : "Tout ce qui reste de la cible est un petit tas fumant de cendres, de dents et d’os calcinés.", "options" : [
+    {"label" : null, "targetEffect" : "Cible : mort instantanée.", "attackerEffect" : null, "extraDmg" : null, "activityMalus" : null, "activityMalusDuration" : null, "injury" : null,  "activeEffects": [ {"type":"dead", "value":null,"duration":null}] }
+  ]}
+]

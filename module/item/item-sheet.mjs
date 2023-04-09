@@ -10,8 +10,8 @@ export class AtDMItemSheet extends ItemSheet {
     return mergeObject(super.defaultOptions, {
       classes: ["atdm", "sheet", "item"],
       template: "systems/atdm/templates/items/item-sheet.hbs",
-      width: 520,
-      height: 480,
+      width: 510,
+      height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
     });
   }

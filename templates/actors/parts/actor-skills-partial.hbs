@@ -1,6 +1,6 @@
 <div class="skills-container container">
     <div class="container-header flexrow">
-        <div class="header-field flex4 left gray"><h4>{{localize "ATDM.ui.skills"}}</h4></div>
+        <div class="header-field flex6 left gray"><h4>{{localize "ATDM.ui.skills"}}</h4></div>
         <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.stats"}}</small></div>
         <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.rank"}}</small></div>
         <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.rankBonus"}}</small></div>
@@ -9,7 +9,7 @@
         <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.spec"}}</small></div>
         <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.item"}}</small></div>
         <div class="header-field flex2 center"><small>{{localize "ATDM.ui.shorts.total"}}</small></div>
-        <div class="header-field flex1 center">&nbsp;</div>
+        <div class="header-field flex1 right">&nbsp;</div>
     </div>
     <div class="container-body">
 {{#each skillGroups as |sg i|}}
@@ -21,7 +21,7 @@
             {{#each sg.items as |skill id|}}
                 {{!log "skill" skill id}}
                 <div class="skill container-row flexrow no-wrap item" data-item-id="{{skill._id}}" data-item-type="skill">
-                    <div class="form-fields left flex4">
+                    <div class="form-fields left flex6">
                         {{#if skill.system.properties.rollable}}
                             <a class="rollable">{{skill.name}} ({{#if skill.system.stat}}{{localize (concat "ATDM.stats.abbrev." skill.system.stat)}}{{else}}-{{/if}})</a>
                         {{else}}
@@ -52,7 +52,7 @@
                     <div class="form-fields center flex2">
                         {{skill.system.total}}
                     </div>
-                    <div class="item-controls center flex1">
+                    <div class="item-controls right flex1">
                         <div class="flexrow center no-wrap">
                             <a class="item-edit"><i class="fa-regular fa-pencil"></i></a>&nbsp;
                             <a class="item-delete"><i class="fa-solid fa-xmark-large"></i></a>

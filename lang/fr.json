@@ -5,8 +5,11 @@
   "ITEM": {
     "TypeEquipment": "Équipement",
     "TypeSkill": "Compétence",
-    "TypeSpell": "Sort",
-    "TypeSpellList": "Liste de Sorts"
+    "TypeKin": "Ascendance",
+    "TypeCulture": "Culture",
+    "TypeBackground": "Historique",
+    "TypeVocation": "Vocation",
+    "TypeSpelllore": "Savoir Magique"
   },
   "ATDM": {
     "sheet": {
@@ -68,6 +71,7 @@
       "itemBonus": "Bonus d'objet",
       "specialBonus": "Bonus spécial",
       "properties" : "Propriétés",
+      "slug" : "Slug",
       "total" : "Total"
     },
     "stats" : {
