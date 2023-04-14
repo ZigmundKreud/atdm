@@ -1,4 +1,20 @@
 export const ATDM = {
+  difficulties : {
+    standard: 0,
+    trivial: 50,
+    mundane: 40,
+    veryEasy: 30,
+    easy: 20,
+    simple: 10,
+    challenging: -10,
+    hard: -20,
+    veryHard: -30,
+    extremelyHard: -40,
+    heroic: -50,
+    absurd: -60,
+    insane: -70
+  },
+
   itemTypes : {
     SKILL : "skill",
     EQUIPMENT : "equipment",

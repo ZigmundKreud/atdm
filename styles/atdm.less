@@ -1,9 +1,21 @@
-@import "flex";
+// Import utilities.
+@import 'utils/colors';
+@import 'utils/typography';
+//@import 'utils/mixins';
+@import 'utils/variables';
 
+/* Global styles */
+//@import 'global/window';
+//@import 'global/grid';
+@import 'global/flex';
+@import 'global/chat';
+
+@header-height : 210px;
 .atdm {
-  @import "colors";
-  @import "typography";
-  @import "form-reset";
+  @import "components/form-reset";
+  @import 'components/resource';
+  @import 'components/items';
+  @import 'components/effects';
 
   &.sheet {
     .window-content {
@@ -18,20 +30,23 @@
       margin: 0;
       padding: 0;
       height: 100%;
+      overflow: hidden;
+      .sheet-body {
+        overflow: auto;
+      }
 
       .item-controls {
         padding: 4px 4px 0 0;
         font-size: smaller;
 
         .item-edit, .item-delete {
-          color: @colorDark;
+          color: @colorDarkGray;
         }
       }
 
       form {
         margin: 0;
         padding: 0;
-
         .container {
           .left {
             padding-left: 5px;
@@ -100,11 +115,15 @@
         background-size: calc(626px * 0.3) calc(775px * 0.3);
         background-position: bottom left;
         background-repeat: no-repeat;
+        height: 100%;
+        max-height: 100%;
 
         .wrap {
           margin: 0;
           padding: 30px 5px 40px 50px;
           height: 100%;
+          min-height: 100%;
+          max-height: 100%;
           background-image: url("/systems/atdm/ui/assets/deco-top-left.webp");
           background-size: calc(888px * 0.32) calc(762px * 0.32);
           background-position: top left;
@@ -143,6 +162,11 @@
               }
             }
           }
+          .sheet-body {
+            height:calc(100% - @header-height);
+            max-height:calc(100% - @header-height);
+            overflow: auto;
+          }
         }
       }
     }
@@ -150,6 +174,17 @@
     &.item {
       min-width: 510px;
       min-height: 560px;
+      .item-type {
+        display: flex;
+        justify-content: end;
+        justify-items: end;
+        align-content: center;
+        align-items: center;
+        font-family: @font-secondary;
+        font-size: 16px;
+        color: @colorDark;
+
+      }
       .form-group {
         background: white;
       }

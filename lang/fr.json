@@ -12,16 +12,33 @@
     "TypeSpelllore": "Savoir Magique"
   },
   "ATDM": {
+    "effects" : {
+      "EffectCreate": "Create Effect",
+      "EffectToggle": "Toggle Effect",
+      "EffectEdit": "Edit Effect",
+      "EffectDelete": "Delete Effect"
+    },
     "sheet": {
       "character": "Fiche de personnage",
       "item": "Fiche d'objet personnage"
+    },
+    "itemTypes": {
+      "equipment": "Équipement",
+      "skill": "Compétence",
+      "kin": "Ascendance",
+      "culture": "Culture",
+      "background": "Historique",
+      "vocation": "Vocation",
+      "spelllore": "Savoir Magique"
     },
     "ui" : {
       "tabs" : {
         "main" : "Principal",
         "skills" : "Compétences",
+        "combat" : "Combat",
         "inventory" : "Inventaire",
-        "spells" : "Sorts",
+        "effects" : "Effets",
+        "magic" : "Magie",
         "description" : "Description"
       },
       "shorts" : {
@@ -37,6 +54,9 @@
         "total" : "TOT"
       },
       "none" : "-",
+      "cancel" : "Annuler",
+      "submit" : "OK",
+      "Add": "Add",
       "name" : "Nom du Personnage",
       "lvl" : "Niveau",
       "xp" : "XP",
@@ -70,9 +90,20 @@
       "kinBonus": "Bonus d'ascendance",
       "itemBonus": "Bonus d'objet",
       "specialBonus": "Bonus spécial",
+      "description" : "Description",
+      "details" : "Détails",
       "properties" : "Propriétés",
       "slug" : "Slug",
-      "total" : "Total"
+      "total" : "Total",
+      "formula" : "Formule",
+      "skillCheck" : "Jet de Compétence",
+      "skillScore" : "Score de Compétence",
+      "difficulty" : "Difficulté",
+      "die" : "Dé",
+      "result" : "Résultat",
+      "total" : "Total",
+      "maxResult" : "Résultat Maximum",
+      "clumsyRange" : "Seuil de Maladresse"
     },
     "stats" : {
       "brn": "Puissance",
@@ -145,6 +176,29 @@
       "power" : "Pouvoir",
       "armor" : "Armure",
       "attack" : "Attaque d'arme"
+    },
+    "difficulties" : {
+      "trivial": "Trivial (+50)",
+      "mundane": "Banal (+40)",
+      "veryEasy": "Très Facile (+30)",
+      "easy": "Facile (+20)",
+      "simple": "Simple (+10)",
+      "standard": "Standard (0)",
+      "challenging": "Stimulante (-10)",
+      "hard": "Difficile (-20)",
+      "veryHard": "Très Difficile (-30)",
+      "extremelyHard": "Extrêmement Difficile (-40)",
+      "heroic": "Héroïque (-50)",
+      "absurd": "Absurde (-60)",
+      "insane": "Insensée (-70)"
+    },
+    "roll" : {
+      "critical" : "Réussite Critique",
+      "success" : "Réussite",
+      "partial" : "Réussite Partielle",
+      "failure" : "Échec",
+      "fumble" : "Échec Critique",
+      "clumsy" : "Maladresse"
     }
   }
 }

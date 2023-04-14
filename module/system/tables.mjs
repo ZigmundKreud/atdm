@@ -1,7 +1,13 @@
 export const Tables = {};
 
 Tables.check = {
-    skills : {},
+    skills : [
+        {"roll" : [0, 4], "resolution" : "fumble", "success" : false, "fumble":true, "partial":false, "critical":false},
+        {"roll" : [5, 74], "resolution" : "failure", "success" : false, "fumble":false, "partial":false, "critical":false},
+        {"roll" : [75, 99], "resolution" : "partial", "success" : true, "fumble":false, "partial":true, "critical":false},
+        {"roll" : [100, 174], "resolution" : "success", "success" : true, "fumble":false, "partial":false, "critical":false},
+        {"roll" : [175, 9999], "resolution" : "critical", "success" : true, "fumble":false, "partial":false, "critical":true}
+    ],
     saves : {}
 }
 Tables.attacks = {

@@ -2,9 +2,23 @@
     {{log "ATDM | Item " this}}
     <header class="sheet-header">
         <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}"/>
-        <div class="header-fields">
+        <div class="header-fields flexcol">
+            <div class="flex3">
             <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+            </div>
+            <div class="flex1 item-type">{{localize (concat "ATDM.itemTypes." item.type)}}</div>
         </div>
     </header>
-    {{> (concat (concat "systems/atdm/templates/items/parts/" item.type) "-partial.hbs") }}
+    <nav class="sheet-tabs tabs" data-group="primary">
+        <a class="item" data-tab="description">{{localize "ATDM.ui.description"}}</a>
+        <a class="item" data-tab="properties">{{localize "ATDM.ui.properties"}}</a>
+    </nav>
+    <section class="sheet-body">
+        <div class="tab flexrow description active" data-group="primary" data-tab="description">
+            {{editor enrichedDescription target="system.description" button=true owner=owner editable=editable}}
+        </div>
+        <div class="tab properties" data-group="primary" data-tab="properties">
+            {{> (concat (concat "systems/atdm/templates/items/parts/" item.type) "-partial.hbs") }}
+        </div>
+    </section>
 </form>

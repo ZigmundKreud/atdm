@@ -11,7 +11,7 @@ export class AtDMItemSheet extends ItemSheet {
       classes: ["atdm", "sheet", "item"],
       template: "systems/atdm/templates/items/item-sheet.hbs",
       width: 510,
-      height: 600,
+      height: 650,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "description" }]
     });
   }

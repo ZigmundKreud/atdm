@@ -1,0 +1,49 @@
+<div class="message-content">
+    <div class="chat-card" data-actor-id="{{actorId}}">
+        {{#if clumsy}}
+            <h2 class="clumsy"><i class="fa-solid fa-skull-cow"></i>&nbsp;{{localize "ATDM.roll.clumsy"}}</h2>
+        {{else}}
+        <h2 class="{{checkResult.resolution}}">
+        {{#if checkResult.success}}
+            {{#if checkResult.critical}}
+                <i class="fas fa-check-double"></i>
+            {{else}}
+                {{#if checkResult.partial}}
+                    <i class="fa-solid fa-tilde"></i>
+                {{else}}
+                    <i class="fas fa-check"></i>
+                {{/if}}
+            {{/if}}
+        {{else}}
+            {{#if checkResult.fumble}}
+                <i class="fa-solid fa-skull"></i>
+            {{else}}
+                <i class="fas fa-times"></i>
+            {{/if}}
+        {{/if}}
+            &nbsp;{{localize (concat "ATDM.roll." checkResult.resolution)}}</h2>
+        {{/if}}
+        <h3 style="border-bottom: none">{{localize "ATDM.ui.skillCheck"}} - {{label}}</h3>
+    </div>
+    <div class="dice-roll">
+        <div class="dice-result">
+            <div class="dice-formula">{{label}}({{numberFormat skillScore decimals=0 sign=true}}) + d100({{die}}) + mod({{numberFormat difficulty decimals=0 sign=true}})</div>
+            <div class="dice-tooltip" style="display: none;">
+                <section class="tooltip-part">
+                    <div class="dice">
+                        <header class="part-header flexrow">
+                            <span class="part-formula">1d100x&gt;95</span>
+                            {{#each dice as |d id|}}
+                                <span class="part-total">{{d.result}}</span>
+                            {{/each}}
+                        </header>
+                        <ol class="dice-rolls">
+                            <li class="roll die d100">{{die}}</li>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+            <h4 class="dice-total">{{total}}</h4>
+        </div>
+    </div>
+</div>

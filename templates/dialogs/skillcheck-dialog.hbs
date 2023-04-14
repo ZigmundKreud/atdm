@@ -1,0 +1,52 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header"></header>
+    <section class="sheet-body">
+        <input class="field-value" id="skillName" name="skillName" type="hidden" value="{{skillName}}" data-dtype="String">
+        <div class="form-group">
+            <label>{{localize "ATDM.ui.formula"}}</label>
+            <div class="form-fields">
+                <input class="field-value" id="formula" name="formula" type="text" value="{{formula}}" placeholder="{{localize "ATDM.ui.formula"}}" data-dtype="String">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>{{localize "ATDM.ui.skillScore"}}</label>
+            <div class="form-fields">
+                <input class="field-value" id="skillScore" name="skillScore" type="text" value="{{skillScore}}" placeholder="{{localize "ATDM.ui.skillScore"}}" data-dtype="Number">
+            </div>
+        </div>
+        <div class="form-group">
+            <label>{{localize "ATDM.ui.difficulty"}}</label>
+            <div class="form-fields">
+                <select name="difficulty" id="difficulty" data-type="Number" style="width:100%">
+                    {{#select difficulty}}
+                        {{#each config.difficulties as |value key|}}
+                            <option value="{{value}}">{{localize (concat "ATDM.difficulties." key)}}</option>
+                        {{/each}}
+                    {{/select}}
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>{{localize "ATDM.ui.maxResult"}}</label>
+            <div class="form-fields">
+                <select class="field-value flex1" name="maxResult" id="maxResult" data-type="Number">
+                    <option value="9999">--</option>
+                    <option value="100">100</option>
+                    <option value="110">110</option>
+                    <option value="120">120</option>
+                    <option value="130">130</option>
+                    <option value="140">140</option>
+                    <option value="150">150</option>
+                    <option value="175">175</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>{{localize "ATDM.ui.clumsyRange"}}</label>
+            <div class="form-fields">
+                <input class="field-value" name="clumsyRange" id="clumsyRange" type="number" value="{{clumsyRange}}" placeholder="{{localize "ATDM.ui.clumsyRange"}}" data-dtype="Number">
+            </div>
+        </div>
+    </section>
+</form>

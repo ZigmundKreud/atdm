@@ -44,7 +44,6 @@ export class AtDMActor extends Actor {
 
   get skillGroups() {
     const skills = this.items.filter((item) => item.type === game.atdm.config.itemTypes.SKILL);
-    console.log(skills);
     let skillGroups = [];
     for (const key of Object.keys(game.atdm.config.skills.categories)) {
       let group = {
@@ -53,7 +52,6 @@ export class AtDMActor extends Actor {
       }
       skillGroups.push(group);
     }
-    console.log(skillGroups);
     return skillGroups;
   }
 
