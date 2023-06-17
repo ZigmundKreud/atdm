@@ -2,7 +2,7 @@
   "id": "atdm",
   "title": "Against the Darkmaster",
   "description": "Against the Darkmaster system for Foundry VTT",
-  "version": "0.1",
+  "version": "11.302.0",
   "compatibility": {
     "minimum": "10",
     "verified": "11.302"
@@ -38,82 +38,109 @@
       "name": "actors",
       "label": "Prétirés",
       "system": "atdm",
-      "path": "packs/actors.db",
+      "path": "packs/actors",
       "type": "Actor",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "backgrounds",
       "label": "Historiques",
       "system": "atdm",
-      "path": "packs/backgrounds.db",
+      "path": "packs/backgrounds",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "cultures",
       "label": "Cultures",
       "system": "atdm",
-      "path": "packs/cultures.db",
+      "path": "packs/cultures",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "equipment",
       "label": "Équipement",
       "system": "atdm",
-      "path": "packs/equipment.db",
+      "path": "packs/equipment",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "kins",
       "label": "Ascendances",
       "system": "atdm",
-      "path": "packs/kins.db",
+      "path": "packs/kins",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "macros",
       "label": "Macros",
       "system": "atdm",
-      "path": "packs/macros.db",
+      "path": "packs/macros",
       "type": "Macro",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "skills",
       "label": "Compétences",
       "system": "atdm",
-      "path": "packs/skills.db",
+      "path": "packs/skills",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "spelllores",
       "label": "Savoirs Magiques",
       "system": "atdm",
-      "path": "packs/spelllores.db",
+      "path": "packs/spelllores",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
       "name": "vocations",
       "label": "Vocations",
       "system": "atdm",
-      "path": "packs/vocations.db",
+      "path": "packs/vocations",
       "type": "Item",
-      "private": false,
-      "flags": {}
+      "flags": {},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "gridDistance": 1.5,
