@@ -1,0 +1,133 @@
+1re • Bruit Fantôme
+Portée : 30 m
+Zone d’Effet : 3 m de rayon
+Durée : 10 minutes par Niveau
+Sauvegarde : Non
+Ce Sort crée un bruit illusoire semblant émaner d’un point de
+la Zone d’Effet. Il peut être aussi faible qu’un murmure ou aussi
+fort qu’une conversation normale. Si le bruit est une voix, cette
+dernière doit parler dans une langue que le lanceur connaît.
+Amplitude +1 : Le lanceur peut se Concentrer pour faire bouger
+le point d’origine du bruit dans la limite de la Portée du Sort.
+2e • Caméléon
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 24 heures
+Sauvegarde : Non
+Ce Sort masque la présence d’un objet statique ou d’une créature
+immobile, qui devient très difficile à voir pendant toute la Durée
+du Sort.
+Les observateurs ne sont pas en mesure de voir la cible à moins
+qu’ils ne cherchent activement dans la zone. Dans ce cas, ils
+peuvent faire un JdS-V pour résister aux effets de ce Sort.
+Ce Sort prend fin immédiatement si la cible se déplace.
+Amplitude +4 : Ajoutez une cible.
+3e • Mirage
+Portée : 30 m
+Zone d’Effet : 3 m de rayon
+Durée : 10 minutes par Niveau
+Sauvegarde : Non
+Ce Sort crée une image ou une scène statique illusoire dans la
+Zone d’Effet. L’illusion est purement visuelle et ne trompe pas
+les autres sens (ni son, ni densité palpable, ni goût, ni odeur). Les
+objets et les créatures peuvent la traverser sans rencontrer de
+résistance.
+Amplitude +3 : Augmentez la Zone d’Effet de 3 mètres.
+Amplitude +3 : Augmentez la Portée de 30 mètres.
+Amplitude +3 : Augmentez la Durée de 10 minutes par Niveau.
+4e • Invisibilité
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 24 heures
+Sauvegarde : Non
+La créature ciblée (et tout ce qu’elle porte ou brandit) est rendue
+complètement invisible pour toute la Durée du Sort.
+Ce Sort prend fin immédiatement si la cible attaque, Incante un
+Sort ou est frappée par une attaque physique.
+Amplitude +2 : Le Sort ne prend pas fin si la cible Incante un
+Sort (mais il prend fin quand même si elle attaque ou est frappée
+par une attaque physique).
+Amplitude +4 : Ajoutez une cible.
+5e • Leurre*
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Ce Sort crée un leurre illusoire qui ressemble parfaitement au
+lanceur et fait exactement les mêmes bruits que lui. Le leurre se
+déplace autour du lanceur, imitant ses actions et reprenant ses
+paroles. Chaque attaque dirigée contre le lanceur a une chance
+égale de le toucher ou de toucher le leurre. Si le leurre est touché,
+il est détruit et disparaît.
+Ce Sort prend fin dès que tous les leurres sont détruits.
+Amplitude +3 : Le Sort crée un leurre supplémentaire.
+6e • Déguisement
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 1 heure par Niveau
+Sauvegarde : Non
+Ce Sort change l’apparence de la créature ciblée, la faisant
+ressembler à quelqu’un d’autre. La cible peut paraître légèrement
+plus petite ou plus grande (dans une limite de 20 % de sa taille
+réelle), ou adopter l’apparence d’une Ascendance différente,
+mais ne peut pas changer radicalement de type de créature. Par
+exemple, ce Sort ne peut pas transformer un Humain en Loup,
+mais peut transformer un Elfe en Nain.
+Le Sort change le son de la voix de la cible, mais ne lui donne pas
+la capacité de parler une langue qu’elle ne connaît pas.
+Cette illusion n’affecte que les sens de la vue et de l’ouïe, donc les
+créatures utilisant d’autres sens ne seront pas trompées par elle.
+7e • Illusion
+Portée : 30 m
+Zone d’Effet : 3 m de rayon
+Durée : 10 minutes par Niveau
+Sauvegarde : Non
+Ce Sort crée une image ou une scène illusoire dans la Zone
+d’Effet. L’illusion est très convaincante, affectant les sens de la vue,
+de l’ouïe et de l’odorat. Cependant, elle est intangible et ne peut
+pas endommager les créatures qui interagissent avec elle.
+Le lanceur peut, en se Concentrant, déplacer l’illusion comme il le
+souhaite (tant qu’elle reste à Portée). Sinon, l’illusion reste statique.
+Les sons reproduits par l’illusion peuvent être aussi forts que le
+rugissement d’un dragon. Si ce sont des voix, elles doivent être
+dans une langue connue par le lanceur.
+Amplitude +3 : Augmentez la Zone d’Effet de 3 mètres.
+Amplitude +3 : Augmentez la Portée de 30 mètres.
+Amplitude +3 : Augmentez la Durée de 10 minutes
+supplémentaires par Niveau.
+8e • Hurlement Affolant
+Portée : 0 (soi)
+Zone d’Effet : 15 m de rayon
+Durée : 1 Round par Niveau
+Sauvegarde : Oui
+Le lanceur émet un hurlement aigu et perturbant qui ébranle
+toutes les personnes à proximité. Les créatures se trouvant dans
+la Zone d’Effet doivent réussir un Jet de Sauvegarde au début de
+chaque Phase d’Évaluation ou être Sonnées. Les animaux qui
+échouent à ce Jet de Sauvegarde, quant à eux, fuient le lanceur
+à toutes jambes pendant toute la Durée du Sort. Les créatures
+sourdes ou sans esprit ne sont pas affectées par ce Sort.
+9e • Regard Invalidant
+Portée : 20 m
+Zone d’Effet : 1 cible
+Durée : 1 Round par 5 points d’échec
+Sauvegarde : Oui
+La cible croit avoir été frappée par une attaque lui causant une
+terrible Blessure. Jetez les dés pour déterminer un Coup Critique
+Grave d’un type choisi par le lanceur. La cible subit ses effets
+(dégâts, États, Saignements, pénalités, etc.) pendant 1 Round
+pour chaque tranche de 5 points d’échec à son JdS-V. Une fois
+la Durée expirée, la cible réalise qu’elle a été trompée, et tous les
+dégâts causés par le Sort disparaissent.
+Si la cible « meurt » à la suite du Coup Critique, elle tombe
+simplement inconsciente pendant la Durée du Sort.
+10e • Nuage Occultant
+Portée : 30 m
+Zone d’Effet : 6 m de rayon
+Durée : 10 minutes par Niveau
+Sauvegarde : Non
+Pour toute la Durée du Sort, la zone choisie est rendue
+imperméable à la magie de divination. Les Sorts ou effets
+magiques qui détectent ou révèlent les illusions et la magie,
+améliorent les sens ou permettent de percevoir à distance ne
+fonctionnent pas dans la Zone d’Effet.

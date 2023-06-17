@@ -1,0 +1,112 @@
+1re • Glyphe d’Alarme
+Portée : 0 (toucher)
+Zone d’Effet : 3 m de rayon
+Durée : 1 heure par Niveau
+Sauvegarde : Non
+Le lanceur dessine un petit symbole ésotérique sur le sol ou sur un
+objet fixe. Pendant la Durée du Sort, le symbole brille faiblement
+chaque fois qu’une créature consciente autre que le lanceur entre
+dans la Zone d’Effet. Le lanceur est instinctivement informé
+chaque fois que cet effet est déclenché.
+Amplitude +1 : Le lanceur peut choisir jusqu’à un individu par
+Niveau. Cet individu ne déclenche pas le glyphe en entrant dans
+la Zone d’Effet.
+2e • Verrouillage Magique
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+La porte ou le contenant ciblé est magiquement verrouillé et ne
+peut être ouvert pendant toute la Durée du Sort, sauf en le brisant.
+Amplitude +3 : Modifiez la Durée à 1 heure par Niveau.
+Amplitude +5 : Modifiez la Durée à 1 jour par Niveau.
+3e • Suspension de la Magie*
+Portée : 20 m
+Zone d’Effet : 1 Sort
+Durée : 1 Round
+Sauvegarde : Oui
+Le Sort ou l’effet magique actif ciblé fait un JdS-V, en utilisant le
+Niveau de son lanceur (ou son Amplitude, si aucun lanceur n’est
+présent) comme Niveau de Défenseur. Si le JdS échoue, ses effets
+sont suspendus pour toute la Durée du Sort de Suspension. Le
+Sort suspendu refait effet à l’expiration de la Durée de Suspension
+(le temps écoulé compte toujours dans la Durée initiale du Sort
+ciblé).
+Amplitude +3 : Augmentez la Durée d’un Round.
+4e • Contre-Sort*
+Portée : 20 m
+Zone d’Effet : 1 Sort
+Durée : —
+Sauvegarde : Oui
+Le lanceur tente de neutraliser un autre Sort qui a été lancé dans
+la même Phase, avant que ses effets ne soient résolus.
+Le lanceur du Sort ciblé doit réussir un JdS-V. S’il échoue, le Sort
+est neutralisé et échoue sans produire aucun effet.
+5e • Dissipation de la Magie
+Portée : 20 m
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Oui
+La cible d’un Sort actif ou d’un effet magique à Portée doit
+passer un JdS-V, en utilisant le Niveau de son lanceur (ou son
+Amplitude, si aucun lanceur n’est présent) comme Niveau de
+Défenseur. En cas d’échec, le Sort est dissipé et ses effets prennent
+fin immédiatement.
+6e • Protection Magique
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Pendant toute la Durée du Sort, la cible bénéficie d’un bonus
+magique de +20 à tous ses Jets de Sauvegarde contre la magie et à
+la DEF contre les Sorts de Projectiles et de Zone.
+7e • Suspension
+de la Malédiction
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 1 heure par Niveau
+Sauvegarde : Oui
+La malédiction ciblée affectant une créature ou un objet à Portée
+doit passer un JdS-V, en utilisant son Niveau d’Attaque (ou le
+Niveau de celui qui l’a lancée) comme Niveau de Défenseur. Si
+elle échoue, ses effets sont suspendus pendant la Durée du Sort.
+La malédiction reprend lorsque le Sort prend fin.
+8e • Mur Magique
+Portée : 30 m
+Zone d’Effet : 3 m × 3 m × 15 cm
+Durée : 1 Round/Niv
+Sauvegarde : Non
+Ce Sort crée un mur de lumière scintillante sur une surface solide
+à Portée. Le mur ne peut être traversé, a une épaisseur d’environ
+15 cm, et peut atteindre 3 mètres de long et de haut.
+Les morts-vivants et les créatures invoquées ne peuvent pas
+le traverser, et les Sorts ou les effets magiques qui le traversent
+doivent réussir un Jet de Sauvegarde (en utilisant leur Amplitude
+comme Niveau de Défenseur) ou être annulés. Les autres
+créatures et les attaques normales peuvent traverser le mur sans
+rencontrer de résistance.
+Le mur n’a aucun effet sur les objets magiques de type Constants,
+et il disparaît après avoir annulé un total de 20 Amplitudes de
+Sorts.
+9e • Glyphe de Protection
+Portée : 0 (toucher)
+Zone d’Effet : 6 m de rayon
+Durée : Variable
+Sauvegarde : Non
+Le lanceur inscrit un glyphe de protection sur une surface statique
+ciblée et choisit l’une des conditions de déclenchement suivantes :
+une créature entrant ou sortant de la Zone d’Effet ; une créature
+touchant le glyphe ; une créature le lisant ; ou l’écoulement d’une
+période de temps prédéfinie. Lorsque le glyphe est déclenché,
+il disparaît en explosant, provoquant un Coup Critique Léger
+d’Impact à toutes les créatures dans la Zone d’Effet.
+10e • Renvoi de Sort*
+Portée : 20 m
+Zone d’Effet : 1 Sort
+Durée : —
+Sauvegarde : Oui
+Le lanceur tente de dévier un autre Sort dont la Zone d’Effet est
+« 1 cible » et qui a été lancé durant la même Phase, en le renvoyant
+contre son lanceur.
+Le lanceur du Sort ciblé doit réussir un JdS-V. S’il échoue, le Sort
+sera dirigé contre son lanceur au lieu de sa cible initiale.

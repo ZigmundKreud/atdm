@@ -1,33 +1,34 @@
 <div class="message-content">
-    <div class="chat-card" data-actor-id="{{actorId}}">
-        {{#if clumsy}}
-            <h2 class="clumsy"><i class="fa-solid fa-skull-cow"></i>&nbsp;{{localize "ATDM.roll.clumsy"}}</h2>
-        {{else}}
-        <h2 class="{{checkResult.resolution}}">
-        {{#if checkResult.success}}
-            {{#if checkResult.critical}}
-                <i class="fas fa-check-double"></i>
+    <div class="atdm chat-card" data-actor-id="{{actorId}}" data-item-id="{{actorId}}">
+        <header class="card-header flexrow">
+            <img src="{{img}}" title="{{label}}" width="36" height="36">
+            <h3 class="item-name">{{label}}</h3>
+        </header>
+        <div class="card-content">
+            <p>{{localize "ATDM.ui.skillCheck"}} :
+            {{#if clumsy}}<span class="clumsy"><i class="fa-solid fa-skull-cow"></i>&nbsp;{{localize "ATDM.roll.clumsy"}}</span>
             {{else}}
-                {{#if checkResult.partial}}
-                    <i class="fa-solid fa-tilde"></i>
+            <span class="{{checkResult.resolution}}">
+                {{#if checkResult.success}}
+                    {{#if checkResult.critical}}<i class="fas fa-check-double"></i>{{else}}
+                        {{#if checkResult.partial}}<i class="fa-solid fa-tilde"></i>{{else}}<i class="fas fa-check"></i>{{/if}}
+                    {{/if}}
                 {{else}}
-                    <i class="fas fa-check"></i>
+                    {{#if checkResult.fumble}}<i class="fa-solid fa-skull"></i>{{else}}<i class="fas fa-times"></i>{{/if}}
                 {{/if}}
+                &nbsp;{{localize (concat "ATDM.roll." checkResult.resolution)}}
+            </span>
             {{/if}}
-        {{else}}
-            {{#if checkResult.fumble}}
-                <i class="fa-solid fa-skull"></i>
-            {{else}}
-                <i class="fas fa-times"></i>
-            {{/if}}
+            </p>
+        </div>
+        {{#if clumsy}}
+        <div class="card-buttons">
+            <button data-action="clumsy">{{localize "ATDM.roll.clumsy"}}</button>
+        </div>
         {{/if}}
-            &nbsp;{{localize (concat "ATDM.roll." checkResult.resolution)}}</h2>
-        {{/if}}
-        <h3 style="border-bottom: none">{{localize "ATDM.ui.skillCheck"}} - {{label}}</h3>
-    </div>
     <div class="dice-roll">
         <div class="dice-result">
-            <div class="dice-formula">{{label}}({{numberFormat skillScore decimals=0 sign=true}}) + d100({{die}}) + mod({{numberFormat difficulty decimals=0 sign=true}})</div>
+            <div class="dice-formula">1d100 + {{numberFormat skillScore decimals=0 sign=false}} + {{numberFormat difficulty decimals=0 sign=false}}</div>
             <div class="dice-tooltip" style="display: none;">
                 <section class="tooltip-part">
                     <div class="dice">

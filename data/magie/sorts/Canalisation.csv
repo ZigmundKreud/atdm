@@ -1,0 +1,74 @@
+1re • Grâce Divine
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur bénéficie d’un bonus magique de +15 à tous ses Jets de Compétence en Charisme pour influencer les personnages non hostiles pendant toute la Durée du Sort.
+Amplitude +2 : Modifiez la Durée à 10 minutes/Niveau.
+
+2e • Aura Sacrée
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur bénéficie d’un bonus magique de +10 à sa DEF pour la Durée du Sort.
+Amplitude +2 : Modifiez la Durée à 10 minutes par Niveau.
+
+3e • Regard Assommant *
+Portée : 15 m
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Oui
+La créature ciblée à Portée doit réussir un Jet de Sauvegarde ou être Sonnée.
+
+4e • Terreur Sacrée *
+Portée : 15 m
+Zone d’Effet : 1 cible
+Durée : 1 Round par 10 points d’échec
+Sauvegarde : Oui
+Le lanceur prononce un mot sacré qui emplit d’effroi un mortvivant ou un serviteur du Maître des Ténèbres se trouvant à Portée. La cible est Effrayée par le lanceur pendant 1 Round pour chaque tranche de 10 points d’échec à son Jet de Sauvegarde. Si la cible est immunisée contre la peur, elle subit une pénalité de -30 à tous ses Jets d’Attaque contre le lanceur pendant la Durée du Sort.
+Amplitude +4 : Ajoutez une cible.
+
+5e • Transfert
+Portée : 0 (soi)
+Zone d’Effet : 20 m de rayon
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Le prochain Sort lancé par le lanceur pendant la Durée du Transfert est transféré à une créature consciente, consentante et visible dans la Zone d’Effet du Transfert. Le Sort transféré se résout normalement, mais son point d’origine est considéré comme étant la créature choisie plutôt que le lanceur.
+Amplitude +4 : Tant que le lanceur connaît l’emplacement exact de la créature sélectionnée et que la créature sait que le lanceur lui transfère un Sort, la créature sélectionnée n’a pas besoin de se trouver dans la Zone d’Effet.
+
+6e • Poids de la Conscience *
+Portée : 15 m
+Zone d’Effet : 1 cible
+Durée : 1 Round par 10 points d’échec
+Sauvegarde : Oui
+La créature ciblée devient Épuisée pendant 1 Round par tranche de 10 points d’échec à son Jet de Sauvegarde.
+Amplitude +2 : Ajoutez une cible.
+
+7e • Attache Spirituelle *
+Portée : 15 m
+Zone d’Effet : 1 cible
+Durée : 1 Round par 10 points d’échec
+Sauvegarde : Oui
+La créature ciblée est Bloquée pendant 1 Round par tranche de 10 points d’échec à son Jet de Sauvegarde.
+
+8e • Fracas de l’Esprit *
+Portée : 15 m
+Zone d’Effet : 1 cible
+Durée : 1 Round par 10 points d’échec
+Sauvegarde : Oui
+La créature ciblée est Inapte pendant 1 Round par tranche de 10 points d’échec à son Jet de Sauvegarde, et ne peut pas être réveillée par des moyens normaux pendant toute la Durée du Sort.
+
+9e • Cri Sacré *
+Portée : 0 (soi)
+Zone d’Effet : 6 m de rayon
+Durée : 1 Round
+Sauvegarde : Oui
+Le lanceur prononce un mot sacré qui ébranle les ennemis et renforce les alliés. Les créatures hostiles au lanceur dans la Zone d’Effet doivent réussir un Jet de Sauvegarde ou être Sonnées. Les alliés du lanceur gagnent un bonus magique de +10 à tous leurs Jets d’Attaque et de Compétences pour le Round en cours.
+
+10e • Punition Divine
+Portée : 0 (soi)
+Zone d’Effet : 10 m de rayon
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Des nuages noirs s’amoncellent dans le ciel au-dessus du lanceur, tonnant avec la rage de la Nature. Dès que ce Sort est lancé, et au début de la Phase d’Évaluation de chaque Round suivant pendant toute la Durée du Sort, le lanceur choisit un ennemi au hasard dans la Zone d’Effet au prix d’une Action Libre. Un éclair déchire le ciel et s’abat sur la créature choisie. L’éclair inflige des dégâts de Foudre et est résolu comme un Sort d’Attaque (en utilisant le Bonus de la Compétence de Canalisation du lanceur), lancé sur la Table d’Attaque des Sorts de Projectile, sans résultat maximum. Ce Sort ne peut être lancé qu’en extérieur.

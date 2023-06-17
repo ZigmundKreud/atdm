@@ -1,0 +1,76 @@
+1re • Chant de Courage
+Portée : 0 (soi)
+Zone d’Effet : 3 m de rayon
+Durée : Concentration
+Sauvegarde : Non
+Le lanceur et ses alliés se trouvant dans la Zone d’Effet bénéficient d’un bonus Spécial de +10 à leurs Jets de Sauvegarde contre la peur. De plus, à la fin de chaque Phase d’Évaluation, ils peuvent effectuer un Jet de Sauvegarde pour se débarrasser des effets de tout Sort ou capacité induisant la peur et les affectant.
+Amplitude +3 : Augmentez le rayon de la Zone d’Effet de 3 m.
+Amplitude +2 : Modifiez la Durée à 1 Round par Niveau du lanceur.
+
+2e • Endurance aux Éléments
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+La créature ciblée est protégée contre les effets de chaleur et de froid naturels extrêmes. De plus, elle bénéficie d’un bonus Spécial de +20 à sa DEF et à ses Jets de Sauvegarde contre les attaques magiques de Feu et de Froid pendant la Durée du Sort.
+Amplitude +2 : Modifiez la Durée à 10 minutes par Niveau.
+
+3e • Bénédiction de la Nature
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur bénit la créature vivante ciblée, lui accordant un bonus Spécial de +10 à sa DEF et à ses Jets de Sauvegarde pendant la Durée du Sort.
+
+4e • Suspension de la Malédiction
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 1 heure par Niveau
+Sauvegarde : Oui
+La malédiction ciblée affectant une créature ou un objet à Portée doit passer un JdS-V, en utilisant son Niveau d’Attaque (ou le Niveau de celui qui l’a lancée) comme Niveau de Défenseur. Si elle échoue, ses effets sont suspendus pendant la Durée du Sort. La malédiction reprend lorsque le Sort prend fin.
+
+5e • Répulsion de la Magie
+Portée : 0 (soi)
+Zone d’Effet : 3 m de rayon
+Durée : Concentration
+Sauvegarde : Oui
+Le lanceur demande aux esprits de protéger son groupe de la magie adverse. Pendant toute la Durée du Sort, chaque fois qu’un Sort qui affecterait une cible dans la Zone d’Effet est lancé, ce Sort doit réussir un JdS-V, en utilisant le Niveau de son lanceur (ou son Amplitude, si aucun lanceur n’est présent) comme Niveau de Défenseur. Si ce JdS échoue, le Sort n’affecte pas les créatures situées dans la Zone d’Effet (il se résout néanmoins normalement pour les cibles situées en dehors de la Zone d’Effet).
+Amplitude +3 : Augmentez le rayon de la Zone d’Effet de 3 mètres.
+Amplitude +2 : Modifiez la Durée à 1 Round par Niveau du lanceur.
+
+6e • Sanctuaire
+Portée : 0 (soi)
+Zone d’Effet : 3 m de rayon
+Durée : Concentration
+Sauvegarde : Oui
+Le lanceur et tous ses alliés se trouvant dans la Zone d’Effet bénéficient d’un bonus Spécial de +10 à leur DEF et à leurs Jets de Sauvegarde pendant la Durée du Sort. En outre, les créatures maléfiques situées à l’extérieur de la Zone d’Effet ne peuvent y pénétrer sans effectuer un Jet de Sauvegarde (les créatures maléfiques qui s’y trouvent déjà ne sont pas affectées).
+Amplitude +3 : Augmentez le rayon de la Zone d’Effet de 3 mètres.
+Amplitude +2 : Modifiez la Durée à 1 Round par Niveau du lanceur.
+
+7e • Dissipation de la Magie
+Portée : 20 m
+Zone d’Effet : 1 cible
+Durée : Permanente
+Sauvegarde : Oui
+Le Sort actif ou l’effet magique ciblé à Portée doit passer un JdS-V, en utilisant le Niveau de son lanceur (ou son Amplitude, si aucun lanceur n’est présent) comme Niveau de Défenseur. En cas d’échec, le Sort est dissipé et ses effets prennent fin immédiatement.
+
+8e • Suppression de la Malédiction
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : Permanente
+Sauvegarde : Oui
+La malédiction ciblée affectant une créature ou un objet à Portée doit passer un JdS-V, en utilisant son Niveau d’Attaque (ou le Niveau de celui qui l’a lancée) comme Niveau de Défenseur. Si elle échoue, la malédiction est levée et ses effets sont annulés de façon permanente.
+
+9e • Berceau de la Nature
+Portée : 0 (toucher)
+Zone d’Effet : 1 Campement
+Durée : 1 jour
+Sauvegarde : Non
+Les esprits veillent sur le lanceur et ses alliés, les protégeant du danger et les cachant des agents du Maître des Ténèbres. Pendant toute la Durée du Sort, l’endroit choisi pour le Campement du lanceur est considéré comme un Terrain Normal, et la taille du groupe du lanceur est réduite de moitié pour calculer la Difficulté des Jets de Campement.
+
+10e • Bouclier de la Nature *
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : —
+Sauvegarde : Non
+Ce Sort protège le lanceur d’une seule attaque non magique, la faisant automatiquement échouer.

@@ -1,3 +1,4 @@
+/* Import utilities */
 /* ----------------------------------------- */
 /*  Premade colors                           */
 /* ----------------------------------------- */
@@ -277,30 +278,6 @@ strong {
 .no-wrap {
   flex-wrap: nowrap;
 }
-.chat.chatroll h2 {
-  font-size: 16px;
-}
-.chat.chatroll h2.clumsy {
-  color: #561eb0;
-}
-.chat.chatroll h2.fumble {
-  color: red;
-}
-.chat.chatroll h2.failure {
-  color: orangered;
-}
-.chat.chatroll h2.partial {
-  color: #005477;
-}
-.chat.chatroll h2.success {
-  color: darkgreen;
-}
-.chat.chatroll h2.critical {
-  color: green;
-}
-.chat.chatroll h3 {
-  font-size: 14px;
-}
 /* ----------------------------------------- */
 /*  Chat Cards
 /* ----------------------------------------- */
@@ -333,6 +310,24 @@ strong {
 }
 .chat-card .card-content {
   margin: 5px 0;
+}
+.chat-card .card-content span.clumsy {
+  color: #561eb0;
+}
+.chat-card .card-content span.fumble {
+  color: red;
+}
+.chat-card .card-content span.failure {
+  color: orangered;
+}
+.chat-card .card-content span.partial {
+  color: #005477;
+}
+.chat-card .card-content span.success {
+  color: darkgreen;
+}
+.chat-card .card-content span.critical {
+  color: green;
 }
 .chat-card .card-content h3 {
   font-size: 12px;

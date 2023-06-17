@@ -1,0 +1,109 @@
+1re • Soin
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Non
+La créature vivante ciblée récupère jusqu’à 10 % de son Total de
+Points de Vie au cours de la prochaine minute, comme si elle
+s’était reposée pendant une heure complète.
+Amplitude +1 : Augmentez le nombre de PV récupérés de
+10 % supplémentaires et le temps de récupération d’une minute
+supplémentaire.
+Amplitude +2 : La récupération des PV est instantanée.
+2e • Hémostase
+Portée : 0 (toucher)
+Zone d’Effet : 1 Saignement
+Durée : —
+Sauvegarde : Non
+Réduit la perte de PV d’un Saignement ciblé de 1 PV par Round. Si
+cela ramène le Saignement à zéro, la plaie est considérée comme
+guérie, comme si elle avait été traitée par un Jet de Soins réussi.
+Amplitude +1 : Réduisez le Saignement de 1 PV supplémentaire
+par Round.
+3e • Réveil*
+Portée : 6 m
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Non
+La créature ciblée se débarrasse immédiatement de l’État Sonné.
+4e • Récupération Accélérée
+Portée : 0 (toucher)
+Zone d’Effet : 1 Blessure
+Durée : —
+Sauvegarde : Non
+Chaque jour de repos compte pour deux jours dans le but de
+récupérer des effets de la Blessure Légère ciblée (notez que la
+Blessure doit être traitée pour que la récupération commence).
+Amplitude +2 : Augmente d’un cran la Sévérité des Blessures
+pouvant être ciblées par ce Sort (de Légère à Grave, ou de Grave
+à Invalidante).
+5e • Restauration*
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : Concentration
+Sauvegarde : Non
+Pendant toute la Durée du Sort, la cible récupère 1 PV chaque
+Round. Les personnages Inaptes peuvent lancer ce Sort sur euxmêmes
+et se Concentrer dessus comme s’ils n’étaient pas Inaptes.
+Amplitude +2 : La cible récupère 1 PV supplémentaire par
+Round.
+6e • Idées Claires*
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Non
+La créature vivante ciblée se réveille immédiatement de son
+sommeil ou cesse d’être Sonnée ou Inapte. Ce Sort ne fonctionne
+pas sur les personnages ayant 0 PV ou moins. Les personnages
+endormis ou Inaptes peuvent lancer ce Sort sur eux-mêmes
+comme s’ils étaient pleinement conscients.
+7e • Suture
+Portée : 0 (toucher)
+Zone d’Effet : 1 Blessure
+Durée : —
+Sauvegarde : Non
+Le lanceur peut rattacher un membre tranché ou une partie
+du corps disséquée à sa place d’origine. L’organe ou le membre
+ciblé ne sera pas immédiatement fonctionnel et la Blessure sera
+considérée comme Invalidante, mais elle guérira normalement si
+elle est traitée.
+8e • Guérison des Blessures
+Portée : 0 (toucher)
+Zone d’Effet : 1 Blessure
+Durée : —
+Sauvegarde : Non
+Ce Sort réduit immédiatement d’un cran la Sévérité d’une Blessure
+que le lanceur est en train de traiter (d’Invalidante à Grave, de
+Grave à Légère, ou de Légère à complètement guérie). La pénalité
+infligée par la Blessure est réduite à la pénalité maximale standard
+de sa nouvelle Sévérité (-50 pour les Blessures Graves ou -20
+pour les Blessures Légères). Notez que ce Sort ne supprime pas
+la nécessité d’un Jet de Soins, mais affecte sa Difficulté et le temps
+de récupération de la Blessure.
+9e • Sommeil Réparateur
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 jour par Niveau
+Sauvegarde : Non
+Le lanceur plonge la créature vivante ciblée dans une profonde
+transe. Dans cet état, la cible, Inapte, récupère 5 PV par Round
+et réduit de moitié le temps de récupération de toute Blessure
+dont elle souffre. De plus, pendant toute la Durée du Sort, les
+Saignements et l’État Mourant sont temporairement suspendus,
+ainsi que les effets de toute maladie ou poison affectant le
+personnage (ils reprendront normalement dès la fin du Sort, sauf
+s’ils sont guéris entre-temps).
+Ce Sort prend fin immédiatement si la cible récupère tous ses PV
+et est guérie de toutes ses Blessures, ou si elle cesse d’être Inapte.
+10e • Régénération
+Portée : 0 (toucher)
+Zone d’Effet : 1 Blessure
+Durée : —
+Sauvegarde : Non
+Ce Sort remplace un membre, un organe ou une partie du
+corps perdue ou détruite. La partie remplacée ne sera pas
+immédiatement fonctionnelle et la Blessure sera considérée
+comme Invalidante, mais elle guérira normalement si elle est
+traitée.
+Ce Sort empêche les personnages de mourir des Blessures qu’il
+guérit, mais ne ramène pas à la vie les personnages morts.

@@ -1,0 +1,105 @@
+1re • Maintien de la Vie
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur stabilise la créature vivante ciblée qui souffre de
+l’État Mourant. Pour toute la Durée du Sort, l’État Mourant est
+suspendu. Ses effets reprennent normalement à l’expiration du
+Sort si ses causes ne sont pas traitées.
+Amplitude +4 : Modifiez la Durée à 1 heure par Niveau.
+Amplitude +9 : Modifiez la Durée à 1 jour par Niveau.
+2e • Tranquillité
+Portée : 30 m
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Oui
+La créature consciente ciblée est remplie d’un sentiment de
+calme. Elle réagit pacifiquement, n’attaque pas et n’entreprend pas
+d’action agressive pendant toute la Durée du Sort (mais elle est
+toujours capable de Parer et de se défendre). Les effets de ce Sort
+prennent fin immédiatement si la cible est attaquée.
+Amplitude +2 : Ajoutez une cible supplémentaire à la Zone
+d’Effet.
+3e • Dissipation de la Peur
+Portée : 20 m
+Zone d’Effet : 1 cible
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+La cible est immunisée contre la peur et les effets basés sur la peur
+pour toute la Durée du Sort.
+Amplitude +2 : Ajoutez une cible supplémentaire à la Zone
+d’Effet.
+4e • Bannissement
+de la Fatigue
+Portée : 20 m
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+La cible ignore les effets de l’État Épuisé jusqu’à la fin du Sort.
+Amplitude +2 : Ajoutez une cible supplémentaire à la Zone
+d’Effet.
+Amplitude +4 : Modifiez la Durée à 10 minutes par Niveau.
+5e • Restauration
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Non
+La cible est guérie d’un maximum de 25 Dégâts d’Âme. Ce Sort ne
+ramène pas les personnages morts à la vie, mais les préserve d’une
+transformation en morts-vivants.
+Amplitude +1 : Augmentez de 5 le montant des Dégâts d’Âme
+guéris.
+6e • Inspiration*
+Portée : 0 (soi)
+Zone d’Effet : 6 m de rayon
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+La présence du lanceur inspire ses alliés, leur accordant un bonus
+magique de +15 à tous leurs Jets d’Attaque et de Compétences
+pour toute la Durée du Sort.
+Amplitude +2 : Augmentez le bonus accordé de +5.
+Amplitude +3 : Augmentez le rayon de la Zone d’Effet de 3 m.
+7e • Paix de l’Esprit
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Oui
+Le lanceur effectue un Jet de Sauvegarde contre le Niveau d’Attaque
+du Sort ou de l’effet magique le plus puissant influençant l’esprit
+de la créature ciblée à Portée, avec un bonus Spécial de +10 (s’il
+s’agit d’un Sort, son Niveau d’Attaque est égal à son Amplitude).
+En cas de Réussite, tous les Sorts et effets magiques influençant
+l’esprit de la cible sont dissipés.
+8e • Suppression
+de la Malédiction
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Oui
+La malédiction ciblée affectant une créature ou un objet à Portée
+doit passer un JdS-V, en utilisant son Niveau d’Attaque (ou le
+Niveau de celui qui l’a lancée) comme Niveau de Défenseur. Si
+elle échoue, la malédiction est levée et ses effets sont annulés de
+façon permanente.
+9e • Exorcisme
+Portée : 20 m
+Zone d’Effet : 1 cible
+Durée : 1 jour par 10 points d’échec
+Sauvegarde : Oui
+L’entité démoniaque ou incorporelle ciblée doit réussir un JdS-V
+ou être bannie dans les Ténèbres, incapable de revenir dans
+le monde des mortels pendant 1 jour par tranche de 10 points
+d’échec à son Jet de Sauvegarde.
+10e • La Flamme Secrète
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+La Flamme Secrète éclaire l’âme du lanceur, dévoilant sa véritable
+puissance. Pendant toute la Durée du Sort, le lanceur est immunisé
+contre les Dégâts d’Âme, la peur et les effets magiques influençant
+l’esprit ; il ignore les effets de l’État Épuisé et bénéficie d’un bonus
+magique de +15 à tous ses Jets d’Attaque et de Sauvegarde.
+Les serviteurs du Maître des Ténèbres qui voient le lanceur
+doivent réussir un JdS-V ou fuir, pris d’une terreur soudaine.

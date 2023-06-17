@@ -1,32 +1,3 @@
-.chat {
-  &.chatroll {
-    h2 {
-      font-size: 16px;
-      &.clumsy {
-        color: @colorClumsy;
-      }
-      &.fumble {
-        color: @colorFumble;
-      }
-      &.failure {
-        color: @colorFailure;
-      }
-      &.partial {
-        color: @colorStandard;
-      }
-      &.success {
-        color: @colorSuccess;
-      }
-      &.critical {
-        color: @colorCritical;
-      }
-    }
-    h3 {
-      font-size: 14px;
-    }
-  }
-}
-
 /* ----------------------------------------- */
 /*  Chat Cards
 /* ----------------------------------------- */
@@ -60,6 +31,26 @@
   }
   .card-content {
     margin: 5px 0;
+    span {
+      &.clumsy {
+        color: @colorClumsy;
+      }
+      &.fumble {
+        color: @colorFumble;
+      }
+      &.failure {
+        color: @colorFailure;
+      }
+      &.partial {
+        color: @colorStandard;
+      }
+      &.success {
+        color: @colorSuccess;
+      }
+      &.critical {
+        color: @colorCritical;
+      }
+    }
     h3 {
       font-size: 12px;
       margin: 0;

@@ -1,0 +1,76 @@
+1re • Bâton de Sorcier
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : Permanente
+Sauvegarde : Non
+Le lanceur inscrit sa rune personnelle sur le bâton de bois ciblé, le transformant en son Bâton de Sorcier. Le bâton est considéré comme une arme magique pour toute la Durée du Sort. Tant que le lanceur le tient, il bénéficie d’un bonus Spécial de +5 à tous ses Jets d’Incantation. Le lanceur ne peut avoir qu’un seul Bâton de Sorcier actif à la fois. Tant que ce Sort est actif, le lanceur ne peut pas créer d’autre Bâton de Sorcier sans l’annuler au préalable.
+Amplitude +5 : Augmentez le bonus aux Jets d’Incantation de +5.
+
+2e • Rune d’Avertissement
+Portée : 0 (toucher)
+Zone d’Effet : 10 m de rayon
+Durée : 10 minutes par Niveau
+Sauvegarde : Non
+Le lanceur inscrit la Rune d’Avertissement sur l’objet ciblé. La Rune brille d’une douce lumière argentée si une créature des Ténèbres entre dans la Zone d’Effet.
+Amplitude +2 : Augmentez la Zone d’Effet de 10 mètres.
+Amplitude +3 : Modifiez la Durée à 1 heure par Niveau.
+
+3e • Stockage de Sorts
+Portée : 0 (soi)
+Zone d’Effet : 1 Sort
+Durée : Variable
+Sauvegarde : Non
+Le prochain Sort Incanté par le lanceur dans les cinq prochains Rounds est stocké dans son Bâton de Sorcier. Le Sort stocké n’a pas d’Effet immédiat (autre que celui d’être stocké), mais le lanceur peut ensuite le libérer à tout moment au prix d’une Demi-Action. Les Sorts libérés sont résolus comme s’ils venaient d’être lancés et sont traités comme des Sorts Instantanés. Une fois libéré, un Sort cesse d’être stocké. Le lanceur ne peut pas lancer d’autres Sorts tant que son précédent Sort est stocké. Ce Sort n’a aucun effet si le lanceur n’a pas de Bâton de Sorcier ou s’il ne lance aucun autre Sort dans les cinq Rounds.
+
+4e • Rune de Chance
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 10 minutes par Niveau
+Sauvegarde : Non
+Le lanceur enchante l’objet ciblé en y inscrivant une Rune de Chance. Pendant toute la Durée du Sort, l’objet accorde à tout personnage qui l’utilise un bonus magique de +10 à une Compétence prédéfinie.
+Amplitude +3 : Modifiez la Durée à 1 heure par Niveau.
+Amplitude +3 : Augmentez le bonus magique accordé à la Compétence sélectionnée de +5.
+
+5e • Rune de Pouvoir
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : Variable
+Sauvegarde : Non
+Le lanceur dessine une série de runes enchantées sur un matériau approprié (tablette de pierre, os de baleine, bois de cerf ou parchemin), y inscrivant un Sort de 1re ou 2e Amplitude qu’il connaît. L’objet enchanté devient une Rune de Pouvoir qui peut être utilisée pour lancer le Sort inscrit une fois, comme décrit dans la section Objets Magiques.
+Amplitude +1 : Augmentez de 1 l’Amplitude maximale du Sort pouvant être inscrit.
+
+6e • Rune d’Archerie
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Le lanceur enchante l’arc de la cible en y inscrivant une Rune d’Archerie. Pendant toute la Durée du Sort, le porteur de l’arc enchanté peut le recharger au prix d’une Action Libre.
+
+7e • Rune de Parade
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Le lanceur enchante l’arme ou le bouclier ciblé en y inscrivant une Rune de Parade. Pendant toute la Durée du Sort, lorsqu’un personnage effectue une Parade avec l’objet enchanté, il peut appliquer son bonus de Parade à sa DEF contre toutes les attaques de mêlée portées contre lui au cours du Round, d’où qu’elles viennent.
+Amplitude +2 : Le bonus de Parade de l’objet enchanté s’applique également aux attaques à distance.
+
+8e • Rune de Majesté
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Le lanceur enchante le casque ou l’armure ciblée en y inscrivant une Rune de Majesté. Pendant toute la Durée du Sort, le porteur de l’objet enchanté est entouré d’une aura de majesté qui lui confère un bonus magique de +15 à la DEF et à tous ses Jets de Charisme. De plus, les créatures conscientes de Niveau 3 ou inférieur ne peuvent attaquer le porteur que si elles réussissent un JdS-V contre le Niveau du porteur, ou si elles sont attaquées en premier.
+
+9e • — Thaumaturgie
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur confère un enchantement temporaire à l’objet ciblé en y incorporant un Sort qu’il connaît. Le Sort incorporé doit être de 4e Amplitude ou moins, et doit avoir une Portée de 0 (soi). Pendant toute la Durée du Sort de Thaumaturgie, tout personnage transportant l’objet sera affecté par le Sort incorporé comme s’il l’avait lui-même lancé.
+
+10e • Rune de Victoire
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Le lanceur enchante l’arme de mêlée ciblée en y inscrivant la Rune de Victoire. Pour toute la Durée du Sort, la Longueur de l’arme enchantée est considérée comme étant un cran plus long (jusqu’à un maximum de Très Longue), elle ne provoque aucune Maladresse et les Coups Critiques qu’elle inflige ne subissent jamais de Réduction de Critique due au type ou à la taille de la créature frappée.

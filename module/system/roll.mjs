@@ -23,7 +23,8 @@ export class AtDMSkillRoll extends AtDMRoll {
     static async init(event, actor, skill){
         console.log(skill);
         let dialogTemplateData = {
-            skillName : skill.name,
+            label : skill.name,
+            img : skill.img,
             config : game.atdm.config,
             // formula : "min(175,max(0, 1d100x>95 + @skill + @difficulty))",
             formula : "1d100x>95 + @skill + @difficulty",
@@ -43,6 +44,7 @@ export class AtDMSkillRoll extends AtDMRoll {
     async roll(parameters){
         // Construct the Roll instance
         let r = new Roll(parameters.formula, {skill: parameters.skillScore, difficulty: parameters.difficulty});
+        console.log(parameters);
         await r.evaluate({async:true});
         // The parsed terms of the roll formula
         const die= r.terms[0].total;
@@ -51,8 +53,9 @@ export class AtDMSkillRoll extends AtDMRoll {
         const total = (r.total > 0) ? (r.total <= parameters.maxResult) ? r.total : parameters.maxResult : 0;
         const clumsy = die < parameters.clumsyRange;
         const checkResult = Tables.check.skills.find(s => Utils.inRange(total, s.roll[0], s.roll[1]));
-        const dialogTemplateData = {
+        const cardTemplateData = {
             label : parameters.label,
+            img : parameters.img,
             die : die,
             dice : r.terms[0].results,
             result : result,
@@ -62,8 +65,8 @@ export class AtDMSkillRoll extends AtDMRoll {
             skillScore : parameters.skillScore,
             difficulty : parameters.difficulty
         }
-        // const html = await renderTemplate("systems/atdm/templates/chat/skillcheck-card.hbs", dialogTemplateData);
-        const html = await renderTemplate("systems/atdm/templates/chat/spell-card.hbs", dialogTemplateData);
+        const html = await renderTemplate("systems/atdm/templates/chat/skillcheck-card.hbs", cardTemplateData);
+        // const html = await renderTemplate("systems/atdm/templates/chat/item-card.hbs", dialogTemplateData);
         // Execute the roll
         let chatObject = await r.toMessage({
             speaker: ChatMessage.getSpeaker({ actor: this.actor }),

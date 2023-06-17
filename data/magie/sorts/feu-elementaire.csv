@@ -1,0 +1,80 @@
+1re • Ignition
+Portée : 0 (toucher)
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Non
+Le lanceur conjure une étincelle qui embrase un objet inflammable ciblé à Portée, lequel commence alors à brûler normalement. Si la cible est un être vivant, elle subit un Coup Critique Superficiel de Feu à la place.
+Amplitude +1 : Augmentez la Portée de 2 mètres.
+Amplitude +1 : Au lieu de son effet normal, le Sort éteint un feu à Portée (couvrant une zone jusqu’à 1,5 m de rayon).
+
+2e • Cautérisation
+Portée : 0 (toucher)
+Zone d’Effet : 1 Saignement
+Durée : Permanente
+Sauvegarde : Non
+Une minuscule flamme jaillit du bout des doigts du lanceur, cautérisant un seul Saignement Léger, mais infligeant 2 points de dégâts par point de Saignement guéri de cette façon.
+Amplitude +3 : Augmentez d’un cran la Sévérité des Saignements pouvant être guéris (Sévère au lieu de Léger, ou Exsanguination plutôt que Sévère).
+
+3e • Incandescence
+Portée : 3 m
+Zone d’Effet : 30 cm³ par Niveau
+Durée : Concentration
+Sauvegarde : Non
+L’objet inanimé inorganique ciblé (jusqu’à 30 cm³ par Niveau du lanceur) à Portée devient brûlant pendant toute la Durée du Sort. Les personnages qui portent ou tiennent l’objet subissent un Coup Critique Superficiel de Feu au début de chaque Round, jusqu’à ce qu’ils le lâchent ou le retirent.
+Amplitude +1 : Modifiez la Durée à 1 Round par Niveau.
+
+4e • Mur de Feu
+Portée : 30 m
+Zone d’Effet : 3 m × 3 m × 15 cm
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Ce Sort crée un mur de feu sur une surface solide à Portée. Le mur a une épaisseur d’environ 15 cm et peut atteindre 3 mètres de long et de haut. Le mur de feu est opaque et ne peut être traversé. Toute créature tentant de le traverser subit un Coup Critique Superficiel de Feu.
+Amplitude +3 : Augmentez la longueur du mur de 3 mètres.
+
+5e • Bouclier de Flammes
+Portée : 3 m
+Zone d’Effet : 1 cible
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Pendant toute la Durée du Sort, la cible réduit de moitié les dégâts subis par les attaques basées sur le feu, et réduit d’un degré de Sévérité tout Coup Critique de Feu reçu (les Coups Critiques réduits sous le degré de Sévérité Superficiel sont complètement annulés par le Sort).
+Amplitude +2 : Ajoutez une cible à la Zone d’Effet.
+
+6e • Trait de Feu
+Portée : 30 m
+Zone d’Effet : 1 cible
+Durée : —
+Sauvegarde : Non
+Le lanceur projette une flèche de feu contre la cible. Ce Sort d’Attaque inflige des dégâts de Feu et est résolu sur la Table d’Attaque des Sorts de Projectile, avec un résultat maximum de 150. Si la cible porte des objets hautement inflammables, il y a 1 % de probabilité par point de Dégâts de Base infligés que l’un d’entre eux prenne feu, infligeant un Coup Critique Superficiel de Feu à chaque Round jusqu’à ce qu’il soit éteint, retiré ou détruit.
+Amplitude +2 : Augmentez la probabilité que les objets inflammables prennent feu à 2 % par point de Dégâts de Base infligés.
+Amplitude +2 : Augmentez la Portée de 10 mètres.
+
+7e • Arme enflammée
+Portée : 0 (toucher)
+Zone d’Effet : 1 arme
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+L’arme de mêlée ciblée se trouvant à Portée est enveloppée de flammes magiques. Les flammes n’affectent pas l’arme, ni son  porteur, ni le lanceur, mais infligent un Coup Critique Modéré de Feu supplémentaire à toute créature que l’arme touche.
+Amplitude +2 : Augmentez la Sévérité du Coup Critique supplémentaire de 1 (jusqu’à Létal).
+
+8e • Boule de Feu
+Portée : 30 m
+Zone d’Effet : 3 m de rayon
+Durée : —
+Sauvegarde : Non
+Le lanceur projette une petite sphère de flammes qui explose en une déflagration ardente lorsqu’elle atteint sa cible. Ce Sort d’Attaque est résolu sur la Table d’Attaque des Sorts de Zone, sans résultat maximum, infligeant des dégâts de Feu et affectant toute personne se trouvant dans la Zone d’Effet. Si une créature touchée par ce Sort porte des objets hautement inflammables, il y a 1 % de probabilité par point de Dégâts de Base infligés que l’un d’entre eux prenne feu, infligeant un Coup Critique Superficiel de Feu à son porteur à chaque Round jusqu’à ce qu’il soit éteint, retiré ou détruit.
+Amplitude +2 : Augmentez les probabilités que les objets inflammables prennent feu à 2 % par point de Dégâts de Base infligés.
+Amplitude +2 : Augmentez la Portée de 10 mètres.
+
+9e • Immolation
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Le lanceur s’enveloppe d’une aura ardente. Pendant toute la Durée du Sort, il ne subit aucun dégât de feu, qu’ils soient d’origine naturelle ou magique, et inflige un Coup Critique Léger de Feu au début de chaque Round à toutes les créatures Engagées en mêlée avec lui.
+
+10e • Tempête de Feu
+Portée : 30 m
+Zone d’Effet : 6 m de rayon
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+La zone choisie est recouverte d’une tempête rugissante de flammes de 3 mètres de haut. Pendant toute la Durée du Sort, toute créature se trouvant dans la Zone d’Effet subit un Coup Critique de Feu de Sévérité croissante au début de chaque Round, allant de Superficiel à Létal. À l’intérieur de la Zone d’Effet du Sort, l’ouïe et la vue sont fortement entravées : tous les Jets de Perception subissent une pénalité de -30. De plus, chaque cible commençant son Round à l’intérieur de la Zone d’Effet doit réussir un Jet de Perception pendant la Phase d’Évaluation ou être Sonnée ; une fois que la cible a réussi le Jet, elle n’a pas besoin de le refaire avant la fin du Sort.

@@ -199,6 +199,10 @@
       "failure" : "Échec",
       "fumble" : "Échec Critique",
       "clumsy" : "Maladresse"
+    },
+    "equipment" : {
+      "weapon" : "Arme",
+      "armor" : "Armure"
     }
   }
 }

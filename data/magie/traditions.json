@@ -1,0 +1,3878 @@
+[
+  {
+    "name": "Aspects de la Nature",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Se fondre dans l’environnement naturel, prendre la forme de bêtes et de plantes, et invoquer les bénédictions de divers Esprits de la Nature.</p>",
+      "slug": "aspects-de-la-nature",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "aspects-de-la-nature-1",
+          "name": "Changeur de Teintes",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "aspects-de-la-nature-2",
+          "name": "Aspect du Limier",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "aspects-de-la-nature-3",
+          "name": "Aspect du Hibou",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "aspects-de-la-nature-4",
+          "name": "Aspect de l’Arbre",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "aspects-de-la-nature-5",
+          "name": "Aspect du Renard",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "aspects-de-la-nature-6",
+          "name": "Griffes de la Fureur*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "aspects-de-la-nature-7",
+          "name": "Changeur de Peau",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "aspects-de-la-nature-8",
+          "name": "Aspect du Taureau",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "aspects-de-la-nature-9",
+          "name": "Aspect du Sanglier",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "aspects-de-la-nature-10",
+          "name": "Maître des Formes",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Canalisation",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Devenir un vaisseau pour les Esprits Anciens et les êtres divins, canaliser leur pouvoir afin de juger ses ennemis.</p>",
+      "slug": "canalisation",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "canalisation-1",
+          "name": "Grâce Divine",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "canalisation-2",
+          "name": "Aura Sacrée",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "canalisation-3",
+          "name": "Regard Assommant*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 4,
+          "slug": "canalisation-4",
+          "name": "Terreur Sacrée*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "1 Round/10 points d’échec",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "canalisation-5",
+          "name": "Transfert",
+          "range": "0 (soi)",
+          "aoe": "20 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "canalisation-6",
+          "name": "Poids de la Conscience*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "1 Round/10 points d’échec",
+          "save": true
+        },
+        {
+          "weave": 7,
+          "slug": "canalisation-7",
+          "name": "Attache Spirituelle*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "1 Round/10 points d’échec",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "canalisation-8",
+          "name": "Fracas de l’Esprit*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "1 Round/10 points d’échec",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "canalisation-9",
+          "name": "Cri Sacré*",
+          "range": "0 (soi)",
+          "aoe": "1 sort",
+          "duration": "1 Round",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "canalisation-10",
+          "name": "Punition Divine",
+          "range": "0 (soi)",
+          "aoe": "10 mètres carrés",
+          "duration": " 1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Cantiques",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Invoquer la protection des Esprits Anciens et des Dieux de la Nature pour se protéger et protéger ses compagnons de la magie adverse, de la malédiction et du malheur.</p>",
+      "slug": "cantiques",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "cantiques-1",
+          "name": "Chant de Courage",
+          "range": "0 (soi)",
+          "aoe": "3m de rayon",
+          "duration": " C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "cantiques-2",
+          "name": "Endurance aux Éléments",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "cantiques-3",
+          "name": "Bénédiction de la Nature",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "cantiques-4",
+          "name": "Suspension de la Malédiction*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "cantiques-5",
+          "name": "Répulsion de la Magie",
+          "range": "0 (soi)",
+          "aoe": "3m de rayon",
+          "duration": " C",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "cantiques-6",
+          "name": "Sanctuaire",
+          "range": "0 (soi)",
+          "aoe": "3m de rayon",
+          "duration": " C",
+          "save": true
+        },
+        {
+          "weave": 7,
+          "slug": "cantiques-7",
+          "name": "Dissipation de la Magie*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "cantiques-8",
+          "name": "Suppression de la Malédiction*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "cantiques-9",
+          "name": "Berceau de la Nature",
+          "range": "0 (toucher)",
+          "aoe": "1 Campement",
+          "duration": "1 jour",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "cantiques-10",
+          "name": "Bouclier de la Nature*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Chants Mystiques",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Chanter et jouer des Chants magiques captivants à propos de légendes anciennes, d’histoires effrayantes et de sorcellerie ; contrôler l’esprit et l’âme des êtres vivants.</p>",
+      "slug": "chants-mystiques",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "chants-mystiques-1",
+          "name": "Chant de la Tranquillité*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 2,
+          "slug": "chants-mystiques-2",
+          "name": "Chant du Courage*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "chants-mystiques-3",
+          "name": "Mélodie Hantée*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 4,
+          "slug": "chants-mystiques-4",
+          "name": "Berceuse Enchantée*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "chants-mystiques-5",
+          "name": "Chant Captivant*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "chants-mystiques-6",
+          "name": "Rime Retentissante",
+          "range": "0 (soi)",
+          "aoe": "3m de rayon",
+          "duration": " 1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "chants-mystiques-7",
+          "name": "Chant Médusant*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "chants-mystiques-8",
+          "name": "Voix Résonnante",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "chants-mystiques-9",
+          "name": "Chant Séduisant*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "chants-mystiques-10",
+          "name": "Hymne à l'Oubli*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": true
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Communion",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Parler directement avec les Dieux ou les Esprits Anciens pour obtenir des informations sur le Passé, le Présent et l’Avenir ; demander des conseils divins sous forme de rêves ou de prophéties.</p>",
+      "slug": "communion",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "communion-1",
+          "name": "Question à un Animal",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "communion-2",
+          "name": "Anticipation**",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "communion-3",
+          "name": "Intuition",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "communion-4",
+          "name": "Augure",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "communion-5",
+          "name": "Vision Divine",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "4 heures",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "communion-6",
+          "name": "Communication avec les Morts*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "communion-7",
+          "name": "Présage*",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "communion-8",
+          "name": "Divination",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "4 heures",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "communion-9",
+          "name": "Fatalité*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "communion-10",
+          "name": "Communion avec les Esprits",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Contrôle Mental",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Contrôler l’esprit des êtres vivants et conscients pour les assoupir, les étourdir ou les contraindre.</p>",
+      "slug": "controle-mental",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "controle-mental-1",
+          "name": "Sommeil*",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " 1 minute/Niveau",
+          "save": true
+        },
+        {
+          "weave": 2,
+          "slug": "controle-mental-2",
+          "name": "Charme*",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 3,
+          "slug": "controle-mental-3",
+          "name": "Peur*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": true
+        },
+        {
+          "weave": 4,
+          "slug": "controle-mental-4",
+          "name": "Hébétement*",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 Round/5 points d'échec",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "controle-mental-5",
+          "name": "Hostilité*",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "controle-mental-6",
+          "name": "Suggestion*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 7,
+          "slug": "controle-mental-7",
+          "name": "Blocage",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "controle-mental-8",
+          "name": "Domination",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "controle-mental-9",
+          "name": "Charme de Monstres",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "controle-mental-10",
+          "name": "Geis",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 jour/Niveau",
+          "save": true
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Défense Héroïque",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Se protéger du mal, renforcer son corps et dévier les attaques.</p>",
+      "slug": "defense-heroique",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "defense-heroique-1",
+          "name": "Conscience de la Bataille*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "defense-heroique-2",
+          "name": "Sérénité Mystique",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "defense-heroique-3",
+          "name": "Peau de Pierre*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "defense-heroique-4",
+          "name": "Défense Impénétrable*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "defense-heroique-5",
+          "name": "Défenseur*",
+          "range": "5 m",
+          "aoe": "1 attaque",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "defense-heroique-6",
+          "name": "Inébranlable*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "defense-heroique-7",
+          "name": "Blocage au Bouclier*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "defense-heroique-8",
+          "name": "Invincible*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "defense-heroique-9",
+          "name": "Riposte*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "defense-heroique-10",
+          "name": "Acte de Défi*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Déplacements Naturels",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Se déplacer comme la brise dans les branches des arbres ou le ruisseau à travers la roche ; voler comme un oiseau, creuser comme un blaireau ou courir comme un loup.</p>",
+      "slug": "deplacements-naturels",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "deplacements-naturels-1",
+          "name": "Foulée de l’Errant",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "deplacements-naturels-2",
+          "name": "Pas de l’Écureuil",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "deplacements-naturels-3",
+          "name": "Vitesse du Loup",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "deplacements-naturels-4",
+          "name": "Souffle de la Loutre",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "deplacements-naturels-5",
+          "name": "Marche sur l'Eau",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "deplacements-naturels-6",
+          "name": "Tunnelier",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "deplacements-naturels-7",
+          "name": "Escalade de l'Araignée",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "deplacements-naturels-8",
+          "name": "Union avec la Nature",
+          "range": "0 (toucher)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "deplacements-naturels-9",
+          "name": "Vol du Faucon",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "deplacements-naturels-10",
+          "name": "Marche Fantôme",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Détections",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Voir l’invisible, détecter la magie et les malédictions, lire l’aura des êtres vivants et des lieux, êtres et choses magiques.</p>",
+      "slug": "detections",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "detections-1",
+          "name": "Détection de la Magie",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "detections-2",
+          "name": "Compréhension des Langues",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "detections-3",
+          "name": "Détection des Ténèbres",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "detections-4",
+          "name": "Détection de l'Invisibilité",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "detections-5",
+          "name": "Détection des Pièges",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "detections-6",
+          "name": "Lecture d'Aura",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "detections-7",
+          "name": "Localisation",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "detections-8",
+          "name": "À Travers le Voile",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "detections-9",
+          "name": "Précognition",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "detections-10",
+          "name": "Récits Légendaires",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Enchantement",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Maîtriser les secrets des runes pour enchanter des objets, des armes et des armures, leur conférer des propriétés magiques, ou emprisonner un Sort dans une rune jusqu’à ce qu’il soit prêt à être libéré.</p>",
+      "slug": "enchantement",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "enchantement-1",
+          "name": "Bâton de Sorcier",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "enchantement-2",
+          "name": "Rune d'Avertissement",
+          "range": "0 (toucher)",
+          "aoe": "10 m de rayon",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "enchantement-3",
+          "name": "Stockage de Sorts",
+          "range": "0 (soi)",
+          "aoe": "1 sort",
+          "duration": "Variable",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "enchantement-4",
+          "name": "Rune de Chance",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "enchantement-5",
+          "name": "Rune de Pouvoir",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "Variable",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "enchantement-6",
+          "name": "Rune d'Archerie",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "enchantement-7",
+          "name": "Rune de Parade",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "enchantement-8",
+          "name": "Rune de Majesté",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "enchantement-9",
+          "name": "Thaumaturgie",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "enchantement-10",
+          "name": "Rune de Victoire",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Feu Élémentaire",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Manipuler le Feu élémentaire pour créer des attaques incandescentes et dévastatrices, ériger des barrières de flammes et chauffer des matériaux organiques et inorganiques.</p>",
+      "slug": "feu-elementaire",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "feu-elementaire-1",
+          "name": "Ignition",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "feu-elementaire-2",
+          "name": "Cautérisation",
+          "range": "0 (toucher)",
+          "aoe": "1 Saignement",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "feu-elementaire-3",
+          "name": "Incandescence",
+          "range": "3 m",
+          "aoe": "30 cm³/Niveau",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "feu-elementaire-4",
+          "name": "Mur de Feu",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "feu-elementaire-5",
+          "name": "Bouclier de Flammes",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "feu-elementaire-6",
+          "name": "Trait de Feu",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "feu-elementaire-7",
+          "name": "Arme Enflammée",
+          "range": "0 (toucher)",
+          "aoe": "1 arme",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "feu-elementaire-8",
+          "name": "Boule de Feu",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "feu-elementaire-9",
+          "name": "Immolation",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "feu-elementaire-10",
+          "name": "Tempête de Feu",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Froid Élémentaire",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Maîtriser la Glace élémentaire pour lancer des attaques de givre mordantes, créer des murs de glace et geler tous types de matériaux.</p>",
+      "slug": "froid-elementaire",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "froid-elementaire-1",
+          "name": "Toucher Glacial",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "froid-elementaire-2",
+          "name": "Engelure",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 Round/5 points d'échec",
+          "save": true
+        },
+        {
+          "weave": 3,
+          "slug": "froid-elementaire-3",
+          "name": "Frisson de l'Hiver",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " 1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "froid-elementaire-4",
+          "name": "Mur de Givre",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "froid-elementaire-5",
+          "name": "Coeur d'Hiver",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "froid-elementaire-6",
+          "name": "Trait de Givre",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "froid-elementaire-7",
+          "name": "Boule de Givre",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "froid-elementaire-8",
+          "name": "Mur de Glace",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "froid-elementaire-9",
+          "name": "Cône de Froid",
+          "range": "0 (soi)",
+          "aoe": "Cône de 15 m x 3 m",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "froid-elementaire-10",
+          "name": "Rage de l'Hiver",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Glyphes",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Placer des protections mystiques pour barrer la route et protéger des gens ou des lieux. Se protéger et protéger les autres contre la magie, les Sorts et la sorcellerie. Dissiper les effets magiques sur les personnes et les choses.</p>",
+      "slug": "glyphes",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "glyphes-1",
+          "name": "Glyphe d'Alarme",
+          "range": "0 (toucher)",
+          "aoe": "3m de rayon",
+          "duration": " 1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "glyphes-2",
+          "name": "Verrouillage Magique",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "glyphes-3",
+          "name": "Suspension de la Magie*",
+          "range": "20 m",
+          "aoe": "1 sort",
+          "duration": "1 Round",
+          "save": true
+        },
+        {
+          "weave": 4,
+          "slug": "glyphes-4",
+          "name": "Contre-Sort*",
+          "range": "20 m",
+          "aoe": "1 sort",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "glyphes-5",
+          "name": "Dissipation de la Magie",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "glyphes-6",
+          "name": "Protection Magique",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "glyphes-7",
+          "name": "Suspension de la Malédiction",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "glyphes-8",
+          "name": "Mur Magique",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "glyphes-9",
+          "name": "Glyphe de Protection",
+          "range": "0 (toucher)",
+          "aoe": "6 m de rayon",
+          "duration": "Variable",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "glyphes-10",
+          "name": "Renvoi de Sort*",
+          "range": "20 m",
+          "aoe": "1 sort",
+          "duration": "-",
+          "save": true
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Guérison",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Guérir miraculeusement des blessures ; juguler des pertes de sang ; réparer des os brisés, des muscles déchirés et des organes lésés ; rendre la santé et la vigueur à une personne.</p>",
+      "slug": "guerison",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "guerison-1",
+          "name": "Soin",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "guerison-2",
+          "name": "Hémostase",
+          "range": "0 (toucher)",
+          "aoe": "1 Saignement",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "guerison-3",
+          "name": "Réveil*",
+          "range": "6 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "guerison-4",
+          "name": "Récupération Accélérée",
+          "range": "0 (toucher)",
+          "aoe": "1 Blessure",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "guerison-5",
+          "name": "Restauration*",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "guerison-6",
+          "name": "Idées Claires*",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "guerison-7",
+          "name": "Suture",
+          "range": "0 (toucher)",
+          "aoe": "1 Blessure",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "guerison-8",
+          "name": "Guérison des Blessures",
+          "range": "0 (toucher)",
+          "aoe": "1 Blessure",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "guerison-9",
+          "name": "Sommeil Réparateur",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 jour/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "guerison-10",
+          "name": "Régénération",
+          "range": "0 (toucher)",
+          "aoe": "1 Blessure",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Illusions",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Créer des images illusoires, des mirages et des sons fantomatiques, et tromper les sens des êtres vivants en leur faisant croire à leur existence.</p>",
+      "slug": "illusions",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "illusions-1",
+          "name": "Bruit Fantôme",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " 10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "illusions-2",
+          "name": "Caméléon",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "24 heures",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "illusions-3",
+          "name": "Mirage",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " 10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "illusions-4",
+          "name": "Invisibilité",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "24 heures",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "illusions-5",
+          "name": "Leurre*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "illusions-6",
+          "name": "Déguisement",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "illusions-7",
+          "name": "Illusion",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " 10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "illusions-8",
+          "name": "Hurlement Affolant",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "illusions-9",
+          "name": "Regard Invalidant",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1Round/5 points d'échec",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "illusions-10",
+          "name": "Nuage Occultant",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Main Magique",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Déplacer et affecter la matière inerte par la seule puissance de l’esprit.</p>",
+      "slug": "main-magique",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "main-magique-1",
+          "name": "Poltergeist",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": true
+        },
+        {
+          "weave": 2,
+          "slug": "main-magique-2",
+          "name": "Bouclier Magique*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "main-magique-3",
+          "name": "Fardeau",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": true
+        },
+        {
+          "weave": 4,
+          "slug": "main-magique-4",
+          "name": "Télékinésie",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "main-magique-5",
+          "name": "Déflexion*",
+          "range": "30 m",
+          "aoe": "1 attaque",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "main-magique-6",
+          "name": "Visée Véritable*",
+          "range": "0 (toucher)",
+          "aoe": "1 attaque",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "main-magique-7",
+          "name": "Lame Gardienne*",
+          "range": "30 m",
+          "aoe": "1 attaque",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "main-magique-8",
+          "name": "Poussée Magique",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "main-magique-9",
+          "name": "Éclatement",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "main-magique-10",
+          "name": "Force Écrasante",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": true
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Maître des Animaux",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Acquérir la maîtrise des animaux pour les convoquer, les faire fuir, calmer leurs instincts, parler leur langue.</p>",
+      "slug": "maitre-des-animaux",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "maitre-des-animaux-1",
+          "name": "Sommeil Animal",
+          "range": "30 m",
+          "aoe": "1 animal",
+          "duration": "1 minute/Niveau",
+          "save": true
+        },
+        {
+          "weave": 2,
+          "slug": "maitre-des-animaux-2",
+          "name": "Communication Animale",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "maitre-des-animaux-3",
+          "name": "Compagnon Animal",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "maitre-des-animaux-4",
+          "name": "Invocation d'Animaux",
+          "range": "30 m",
+          "aoe": "1 animal",
+          "duration": "1 minute",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "maitre-des-animaux-5",
+          "name": "Maîtrise des Bêtes",
+          "range": "30 m",
+          "aoe": "1 animal",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "maitre-des-animaux-6",
+          "name": "Contention Animale",
+          "range": "30 m",
+          "aoe": "1 animal",
+          "duration": "1 Round/5 points d'échec",
+          "save": true
+        },
+        {
+          "weave": 7,
+          "slug": "maitre-des-animaux-7",
+          "name": "Yeux de la Forêt",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "maitre-des-animaux-8",
+          "name": "Ami de la Nature",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "maitre-des-animaux-9",
+          "name": "Guérison des Animaux",
+          "range": "0 (toucher)",
+          "aoe": "1 animal",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "maitre-des-animaux-10",
+          "name": "Nuée d’Insectes",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Maître des Plantes",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Contrôler toutes sortes de plantes et d’arbres pour les faire pousser, bouger, aider, gêner, ou saisir et écraser sur commande.</p>",
+      "slug": "maitre-des-plantes",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "maitre-des-plantes-1",
+          "name": "Enchevêtrement",
+          "range": "30 m",
+          "aoe": "10 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "maitre-des-plantes-2",
+          "name": "Communication avec les Plantes",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "maitre-des-plantes-3",
+          "name": "Remède Herboriste",
+          "range": "0 (toucher)",
+          "aoe": "1 herbe",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "maitre-des-plantes-4",
+          "name": "Passage Sûr",
+          "range": "0 (soi)",
+          "aoe": "30 m de rayon",
+          "duration": " 1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "maitre-des-plantes-5",
+          "name": "Localisation de Plante",
+          "range": "0 (soi)",
+          "aoe": "1,5 km de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "maitre-des-plantes-6",
+          "name": "Purification des Plantes",
+          "range": "3 m",
+          "aoe": "1 plante",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "maitre-des-plantes-7",
+          "name": "Générosité de la Nature",
+          "range": "0 (toucher)",
+          "aoe": "1,5 km de rayon",
+          "duration": "1 jour",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "maitre-des-plantes-8",
+          "name": "Croissance Miraculeuse",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "maitre-des-plantes-9",
+          "name": "Cycle Éternel",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "maitre-des-plantes-10",
+          "name": "Arbre Éveillé",
+          "range": "3 m",
+          "aoe": "1 arbre",
+          "duration": "1 minute/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Maîtrise d’Arme",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Ne faire plus qu’un avec une arme choisie pour accomplir des exploits martiaux impossibles et de puissants faits d’armes.</p>",
+      "slug": "maitrise-d-arme",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "maitrise-d-arme-1",
+          "name": "Lien d'Arme",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "maitrise-d-arme-2",
+          "name": "Lame Brillante",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "maitrise-d-arme-3",
+          "name": "Danse d'Acier",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "maitrise-d-arme-4",
+          "name": "Jet*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "maitrise-d-arme-5",
+          "name": "Frappe Clivante",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "maitrise-d-arme-6",
+          "name": "Attaques Fulgurantes*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "maitrise-d-arme-7",
+          "name": "Coups Délabrants",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "maitrise-d-arme-8",
+          "name": "Multi-Attaque*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "maitrise-d-arme-9",
+          "name": "Frappe Sauvage*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "maitrise-d-arme-10",
+          "name": "Tourbillon d'Acier",
+          "range": "0 (soi)",
+          "aoe": "1,5 m de rayon",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Maîtrise d’Escarmouche",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Contrôler le champ de bataille grâce à des manoeuvres acrobatiques stupéfiantes et des attaques à distance mortelles.</p>",
+      "slug": "maitrise-d-escarmouche",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "maitrise-d-escarmouche-1",
+          "name": "Balançoire*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "maitrise-d-escarmouche-2",
+          "name": "Tir de Précision*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "maitrise-d-escarmouche-3",
+          "name": "Vision Mortelle",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "maitrise-d-escarmouche-4",
+          "name": "Tir Immobilisant*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "maitrise-d-escarmouche-5",
+          "name": "Manoeuvre d’Évasion*",
+          "range": "30 m",
+          "aoe": "1 attaque",
+          "duration": " 1 Round",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "maitrise-d-escarmouche-6",
+          "name": "Ricochet*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "maitrise-d-escarmouche-7",
+          "name": "Chausse-Trappe",
+          "range": "0 (toucher)",
+          "aoe": "1,5 m de rayon",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "maitrise-d-escarmouche-8",
+          "name": "Tir Aveuglant*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "maitrise-d-escarmouche-9",
+          "name": "Tir d’Élite*",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "maitrise-d-escarmouche-10",
+          "name": "Pluie de Flèches",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Marée Élémentaire",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Faire appel à la puissance de l’Eau élémentaire pour conjurer le brouillard, contrôler les marées, écraser vos ennemis sous de puissantes vagues et déchaîner la fureur des océans.</p>",
+      "slug": "maree-elementaire",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "maree-elementaire-1",
+          "name": "Conjuration d’Eau",
+          "range": "0 (toucher)",
+          "aoe": "10 litres/Niveau",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "maree-elementaire-2",
+          "name": "Brouillard",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": "/Niveau P",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "maree-elementaire-3",
+          "name": "Mur d'Eau",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "maree-elementaire-4",
+          "name": "Jet d'Eau",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "maree-elementaire-5",
+          "name": "Averse",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "maree-elementaire-6",
+          "name": "Séparation des Eaux",
+          "range": "3 m",
+          "aoe": "30 m³",
+          "duration": " C",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "maree-elementaire-7",
+          "name": "Vague Déferlante",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 6 m",
+          "duration": " -",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "maree-elementaire-8",
+          "name": "Tourbillon",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "maree-elementaire-9",
+          "name": "Contrôle des Eaux",
+          "range": "0 (soi)",
+          "aoe": "10 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "maree-elementaire-10",
+          "name": "Raz de Marée",
+          "range": "30 m",
+          "aoe": "10 m × 10 m × 10 m",
+          "duration": " -",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Miracles",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Créer des objets, de la nourriture et de l’eau à partir de rien ; réparer ce qui a été brisé ; modifier les lois de la Nature en sa faveur avec l’aide des Esprits.</p>",
+      "slug": "miracles",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "miracles-1",
+          "name": "Jeûne",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 jour",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "miracles-2",
+          "name": "Rameau Sacré",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "miracles-3",
+          "name": "Conjuration d'Eau",
+          "range": "0 (toucher)",
+          "aoe": "10 litres/Niveau",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "miracles-4",
+          "name": "Réparation",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "miracles-5",
+          "name": "Multiplication",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "miracles-6",
+          "name": "Festin Spirituel",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "miracles-7",
+          "name": "Acier Sacré*",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "miracles-8",
+          "name": "Vierge au Bouclier",
+          "range": "3 m",
+          "aoe": "1 esprit",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "miracles-9",
+          "name": "Contrôle de la Météo",
+          "range": "0 (soi)",
+          "aoe": "10 km de rayon",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "miracles-10",
+          "name": "Véritable Croyant",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Mouvements Surnaturels",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Se déplacer par tout moyen magique ou merveilleux : escalader des surfaces lisses, voler comme un oiseau, se téléporter</p>",
+      "slug": "mouvements-surnaturels",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "mouvements-surnaturels-1",
+          "name": "Saut*",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "mouvements-surnaturels-2",
+          "name": "Chute Lente*",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "mouvements-surnaturels-3",
+          "name": "Ascension",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "mouvements-surnaturels-4",
+          "name": "Lévitation",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "mouvements-surnaturels-5",
+          "name": "Clignement",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "mouvements-surnaturels-6",
+          "name": "Nage",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "mouvements-surnaturels-7",
+          "name": "Vol",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "mouvements-surnaturels-8",
+          "name": "Portail Magique",
+          "range": "0 (toucher)",
+          "aoe": "1 surface",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "mouvements-surnaturels-9",
+          "name": "Pas Mystique",
+          "range": "0 (soi)",
+          "aoe": "30 m",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "mouvements-surnaturels-10",
+          "name": "Voyage dans les Ténèbres",
+          "range": "0 (soi)",
+          "aoe": "10 m de rayon",
+          "duration": "Spécial",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Paix de l’Âme",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Purger l’âme des êtres vivants de toute influence négative, de la haine et de la peur.</p><p>Les inspirer pour accomplir des actes héroïques.</p>",
+      "slug": "paix-de-l-ame",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "paix-de-l-ame-1",
+          "name": "Maintien de la Vie",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "paix-de-l-ame-2",
+          "name": "Tranquillité",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": true
+        },
+        {
+          "weave": 3,
+          "slug": "paix-de-l-ame-3",
+          "name": "Dissipation de la Peur",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "paix-de-l-ame-4",
+          "name": "Bannissement de la Fatigue",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "paix-de-l-ame-5",
+          "name": "Restauration",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "paix-de-l-ame-6",
+          "name": "Inspiration*",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "paix-de-l-ame-7",
+          "name": "Paix de l'Esprit",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "paix-de-l-ame-8",
+          "name": "Suppression de la Malédiction",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "paix-de-l-ame-9",
+          "name": "Exorcisme",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 jour/10 points d'échec",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "paix-de-l-ame-10",
+          "name": "La Flamme Secrète",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Présence",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Donner des ordres, intimider les ennemis, inspirer et fédérer les alliés avec de puissants cris de guerre.</p>",
+      "slug": "presence",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "presence-1",
+          "name": "Autorité du Commandant",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "presence-2",
+          "name": "Cri de Ralliement*",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "presence-3",
+          "name": "Combat en Formation*",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "presence-4",
+          "name": "Provocation*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 Round/5 points d’échec",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "presence-5",
+          "name": "Posture Intimidante*",
+          "range": "0 (soi)",
+          "aoe": "1,5 m de rayon",
+          "duration": "1 Round/5 points d’échec",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "presence-6",
+          "name": "Déploiement Rapide*",
+          "range": "6 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "presence-7",
+          "name": "Cri de Guerre Revigorant*",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "presence-8",
+          "name": "Ordre*",
+          "range": "6 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "presence-9",
+          "name": "Appel aux Armes*",
+          "range": "6 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "presence-10",
+          "name": "Rugissement Guerrier*",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Puissance Surnaturelle",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Canaliser la magie pour dépasser les limites du corps, le protégeant des influences néfastes et lui permettant d’accomplir des tâches incroyables.</p>",
+      "slug": "puissance-surnaturelle",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "puissance-surnaturelle-1",
+          "name": "Oreilles Affûtées",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "puissance-surnaturelle-2",
+          "name": "Adresse",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "puissance-surnaturelle-3",
+          "name": "Vision dans l’Obscurité",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "puissance-surnaturelle-4",
+          "name": "Hâte",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "puissance-surnaturelle-5",
+          "name": "Résistance à la Douleur*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "puissance-surnaturelle-6",
+          "name": "Souffle Mystique",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "puissance-surnaturelle-7",
+          "name": "Résistance au Poison",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "puissance-surnaturelle-8",
+          "name": "Force Intérieure*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 Round",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "puissance-surnaturelle-9",
+          "name": "Armure Magique",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "puissance-surnaturelle-10",
+          "name": "Coeur d'Acier*",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Purification",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Purger le corps, la nourriture et les boissons des poisons nocifs, des maladies nocives et de la pourriture.</p>",
+      "slug": "purification",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "purification-1",
+          "name": "Purification de Nourriture et d’Eau",
+          "range": "3 m",
+          "aoe": "1 m de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "purification-2",
+          "name": "Détection du Poison",
+          "range": "0 (soi)",
+          "aoe": "1 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "purification-3",
+          "name": "Résistance à la Maladie",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "purification-4",
+          "name": "Résistance au Poison",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "purification-5",
+          "name": "Purification des Blessures",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "purification-6",
+          "name": "Guérison des Maladies",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "purification-7",
+          "name": "Guérison du Poison",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "purification-8",
+          "name": "Purification du Mal",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "purification-9",
+          "name": "Purification de la Terre",
+          "range": "0 (soi)",
+          "aoe": "10 m de rayon/Niveau",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "purification-10",
+          "name": "Purification de l’Esprit",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Savoir Elfique",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Recueillir la Sagesse des Étoiles pour en exhumer le Savoir des Anciens à propos de personnes, de lieux, d’artefacts et de magies légendaires.</p>",
+      "slug": "savoir-elfique",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "savoir-elfique-1",
+          "name": "Palais de la Mémoire",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "savoir-elfique-2",
+          "name": "Savoir de l’Artisan",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "savoir-elfique-3",
+          "name": "Savoir des Mots",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "savoir-elfique-4",
+          "name": "Connaissance de l'Esprit",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 5,
+          "slug": "savoir-elfique-5",
+          "name": "Rêves de Savoir",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "4 heures",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "savoir-elfique-6",
+          "name": "Secrets des Runes",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "savoir-elfique-7",
+          "name": "Savoir des Ténèbres",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "savoir-elfique-8",
+          "name": "Savoir du Chasseur",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "savoir-elfique-9",
+          "name": "Savoir Mystique*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "savoir-elfique-10",
+          "name": "Savoir des Anciens",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "4 heures",
+          "save": false
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Science Naturelle",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Apprendre de l’ancien Savoir de la Nature, des plantes et des animaux, du murmure du vent et du mouvement de l’eau.</p>",
+      "slug": "science-naturelle",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "science-naturelle-1",
+          "name": "Détection des Ténèbres",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "science-naturelle-2",
+          "name": "Détection de la Vie",
+          "range": "0 (soi)",
+          "aoe": "30 m de rayon",
+          "duration": " C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "science-naturelle-3",
+          "name": "Lecture du Vent",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "science-naturelle-4",
+          "name": "Détection de la Magie",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "science-naturelle-5",
+          "name": "Savoir Herboriste",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "science-naturelle-6",
+          "name": "Guide Spirituel",
+          "range": "3 m",
+          "aoe": "1 esprit",
+          "duration": "24 heures",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "science-naturelle-7",
+          "name": "Savoir du Chasseur",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "science-naturelle-8",
+          "name": "Rumeurs de la Terre",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "science-naturelle-9",
+          "name": "Guetteur Spirituel",
+          "range": "10 m",
+          "aoe": "30 m de rayon",
+          "duration": " 1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "science-naturelle-10",
+          "name": "Sagesse d'Antan",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Secrets Occultes",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Révéler ce qui est caché, camoufler la vérité et maîtriser les mystères de la magie.</p>",
+      "slug": "secrets-occultes",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "secrets-occultes-1",
+          "name": "Sens du Secret",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "secrets-occultes-2",
+          "name": "Signe Secret",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "secrets-occultes-3",
+          "name": "Contrefaçon*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "secrets-occultes-4",
+          "name": "Main de Gloire",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "secrets-occultes-5",
+          "name": "Chasseur de Mages*",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "secrets-occultes-6",
+          "name": "Secrets des Runes",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "secrets-occultes-7",
+          "name": "Révélation des Secrets",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "secrets-occultes-8",
+          "name": "Soi Secret",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "secrets-occultes-9",
+          "name": "Secrets Passés et Futurs",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "secrets-occultes-10",
+          "name": "Mille Visages",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "P",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Sons & Lumières",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Créer un phare dans la nuit et les Ténèbres en pleine lumière, faire naître le bruit du silence et provoquer le silence en pleine clameur. Parler des langues inconnues.</p>",
+      "slug": "sons-et-lumieres",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "sons-et-lumieres-1",
+          "name": "Lumière Magique",
+          "range": "0 (toucher)",
+          "aoe": "3m de rayon",
+          "duration": " 1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "sons-et-lumieres-2",
+          "name": "Langues",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "sons-et-lumieres-3",
+          "name": "Contrôle des Sons",
+          "range": "5 m",
+          "aoe": "5 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "sons-et-lumieres-4",
+          "name": "Linceul de Ténèbres",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "sons-et-lumieres-5",
+          "name": "Lumières Fascinantes",
+          "range": "30 m",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "sons-et-lumieres-6",
+          "name": "Ténèbres",
+          "range": "0 (toucher)",
+          "aoe": "5 m de rayon",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "sons-et-lumieres-7",
+          "name": "Son Assourdissant",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "1 heure",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "sons-et-lumieres-8",
+          "name": "Lumière Aveuglante",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " -",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "sons-et-lumieres-9",
+          "name": "Voix Silencieuse",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "sons-et-lumieres-10",
+          "name": "Lumière des Étoiles",
+          "range": "10 m",
+          "aoe": "6 m de rayon",
+          "duration": "10 minutes/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Tempête Élémentaire",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Conjurer la Tempête élémentaire pour attaquer avec son tonnerre et ses éclairs, invoquer des vents tempétueux et dompter des ouragans.</p>",
+      "slug": "tempete-elementaire",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "tempete-elementaire-1",
+          "name": "Brise",
+          "range": "0 (soi)",
+          "aoe": "15 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "tempete-elementaire-2",
+          "name": "Coup de Tonnerre",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "tempete-elementaire-3",
+          "name": "Mur de Tempête",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "tempete-elementaire-4",
+          "name": "Nuage d’Orage",
+          "range": "30 m",
+          "aoe": "1,5 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "tempete-elementaire-5",
+          "name": "Accalmie",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " C",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "tempete-elementaire-6",
+          "name": "Armure de Vent",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "tempete-elementaire-7",
+          "name": "Porteur de Tempêtes",
+          "range": "0 (toucher)",
+          "aoe": "1 arme",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "tempete-elementaire-8",
+          "name": "Boule de Foudre",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "tempete-elementaire-9",
+          "name": "Ouragan",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "tempete-elementaire-10",
+          "name": "Éclair",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Terre Élémentaire",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Manipuler la Terre et la Pierre élémentaires pour attaquer avec des rochers et des éboulements, fissurer la terre et la pierre, et faire trembler le sol avec de puissants séismes.</p>",
+      "slug": "terre-elementaire",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "terre-elementaire-1",
+          "name": "Affaiblissement",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "terre-elementaire-2",
+          "name": "Herse",
+          "range": "30 m",
+          "aoe": "3m x 3m",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "terre-elementaire-3",
+          "name": "Cristal de Pouvoir",
+          "range": "0 (soi)",
+          "aoe": "1 cristal",
+          "duration": "24 heures",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "terre-elementaire-4",
+          "name": "Mur de Terre",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 15 cm",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "terre-elementaire-5",
+          "name": "Éclats de Roche",
+          "range": "0 (soi)",
+          "aoe": "Cône de 3 m",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "terre-elementaire-6",
+          "name": "Fissure",
+          "range": "30 m",
+          "aoe": "3 m × 3 m × 3 m",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "terre-elementaire-7",
+          "name": "Pulvérisation",
+          "range": "30 m",
+          "aoe": "3 m³",
+          "duration": "P",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "terre-elementaire-8",
+          "name": "Terre Déchirée",
+          "range": "30 m",
+          "aoe": "3m de rayon",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "terre-elementaire-9",
+          "name": "De la Pierre à la Boue",
+          "range": "30 m",
+          "aoe": "3 m x 3 m x 3 m",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "terre-elementaire-10",
+          "name": "Tremblement de Terre",
+          "range": "30 m",
+          "aoe": "10 m de rayon",
+          "duration": "1 Round/Niveau",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Tromperie",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Embrouiller l’esprit, décontenancer les sens et tromper les ennemis avec des tours, des illusions et des subterfuges magiques.</p>",
+      "slug": "tromperie",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "tromperie-1",
+          "name": "Distraction",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 2,
+          "slug": "tromperie-2",
+          "name": "Prestidigitation",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "tromperie-3",
+          "name": "Vol Fantôme",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "tromperie-4",
+          "name": "Changement de Visage",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "tromperie-5",
+          "name": "Évasion*",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "tromperie-6",
+          "name": "Maladresse",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 7,
+          "slug": "tromperie-7",
+          "name": "Ennemis Fantômes",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "tromperie-8",
+          "name": "Langue de Miel",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "Variable",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "tromperie-9",
+          "name": "Disparition",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "tromperie-10",
+          "name": "Dernière Surprise*",
+          "range": "10 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Visions Astrales",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Se projeter hors de son corps pour percevoir d’autres êtres vivants, parler avec le seul pouvoir de l’esprit et s’harmoniser avec d’autres esprits.</p>",
+      "slug": "visions-astrales",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "visions-astrales-1",
+          "name": "Vision de la Bête",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "visions-astrales-2",
+          "name": "Perception des Pensées*",
+          "range": "0 (soi)",
+          "aoe": "6 m de rayon",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "visions-astrales-3",
+          "name": "Clairaudience",
+          "range": "10 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "visions-astrales-4",
+          "name": "Prescience*",
+          "range": "30 m",
+          "aoe": "1 attaque",
+          "duration": " -",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "visions-astrales-5",
+          "name": "Vision Lointaine",
+          "range": "10 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "visions-astrales-6",
+          "name": "Parole Mentale",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "visions-astrales-7",
+          "name": "Scrutation",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "visions-astrales-8",
+          "name": "Lien Mental",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "visions-astrales-9",
+          "name": "Esprit Vagabond",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "visions-astrales-10",
+          "name": "Lecture de l'Esprit",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 Round/10 points d'échec",
+          "save": true
+        }
+      ],
+      "stat": "bea"
+    }
+  },
+  {
+    "name": "Voie de la Nature",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Éviter de se perdre et toujours connaître la bonne direction dans la nature. Pister les gens et les animaux, trouver un abri et éviter les pièges et les dangers naturels.</p>",
+      "slug": "voie-de-la-nature",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "voie-de-la-nature-1",
+          "name": "Vision des Chemins",
+          "range": "0 (toucher)",
+          "aoe": "1 chemin",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "voie-de-la-nature-2",
+          "name": "Détection des Pièges",
+          "range": "0 (soi)",
+          "aoe": "3m de rayon",
+          "duration": " C",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "voie-de-la-nature-3",
+          "name": "Connaissance de la Chasse",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "voie-de-la-nature-4",
+          "name": "Découverte de Chemin",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "voie-de-la-nature-5",
+          "name": "Chemin Béni",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "voie-de-la-nature-6",
+          "name": "Découverte d’Abri",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 heure/Niveau",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "voie-de-la-nature-7",
+          "name": "Passage sans Traces",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "voie-de-la-nature-8",
+          "name": "Détection des Embuscades",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "voie-de-la-nature-9",
+          "name": "OEil du Chasseur",
+          "range": "0 (toucher)",
+          "aoe": "15 m de rayon",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 10,
+          "slug": "voie-de-la-nature-10",
+          "name": "Le Chemin Caché",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 jour",
+          "save": false
+        }
+      ],
+      "stat": "wsd"
+    }
+  },
+  {
+    "name": "Magie Noire",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Maîtriser des formules fatales à la chair pour se venger de ses ennemis détestés, invoquer des entités immondes des royaumes inférieurs ou plier les esprits inférieurs à sa volonté.</p>",
+      "slug": "magie-noire",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "magie-noire-1",
+          "name": "Agonie",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 2,
+          "slug": "magie-noire-2",
+          "name": "Langue des Ténèbres",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "magie-noire-3",
+          "name": "Contact Ténébreux",
+          "range": "0 (soi)",
+          "aoe": "caster",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 4,
+          "slug": "magie-noire-4",
+          "name": "Main du Destin",
+          "range": "0 (toucher)",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "magie-noire-5",
+          "name": "Invocation",
+          "range": "3 m",
+          "aoe": "1 démon",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 6,
+          "slug": "magie-noire-6",
+          "name": "Projectile Noir",
+          "range": "30 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 7,
+          "slug": "magie-noire-7",
+          "name": "Venin",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": true
+        },
+        {
+          "weave": 8,
+          "slug": "magie-noire-8",
+          "name": "Souffle Démoniaque",
+          "range": "0 (soi)",
+          "aoe": "Cône de 15 m × 6 m",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 9,
+          "slug": "magie-noire-9",
+          "name": "Malédiction",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "magie-noire-10",
+          "name": "Tourments Infinis",
+          "range": "15 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        }
+      ],
+      "stat": "wit"
+    }
+  },
+  {
+    "name": "Nécromancie",
+    "img": "icons/magic/symbols/runes-triangle-orange-purple.webp",
+    "type": "spelllore",
+    "data": {
+      "description": "<p>Invoquer le pouvoir de la non-vie pour détruire l’âme des vivants et sortir les morts de leur repos, les asservissant à une volonté impie.</p>",
+      "slug": "necromancie",
+      "spells": [
+        {
+          "weave": 1,
+          "slug": "necromancie-1",
+          "name": "Spiritisme",
+          "range": "10 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": false
+        },
+        {
+          "weave": 2,
+          "slug": "necromancie-2",
+          "name": "Danse Macabre",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 minute/Niveau",
+          "save": false
+        },
+        {
+          "weave": 3,
+          "slug": "necromancie-3",
+          "name": "Domination de Mort-Vivant",
+          "range": "10 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": true
+        },
+        {
+          "weave": 4,
+          "slug": "necromancie-4",
+          "name": "Dialogue avec les Morts",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "-",
+          "save": false
+        },
+        {
+          "weave": 5,
+          "slug": "necromancie-5",
+          "name": "Animation de Laquais",
+          "range": "3 m",
+          "aoe": "1 target",
+          "duration": "P",
+          "save": false
+        },
+        {
+          "weave": 6,
+          "slug": "necromancie-6",
+          "name": "Drain de Vie",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "C",
+          "save": true
+        },
+        {
+          "weave": 7,
+          "slug": "necromancie-7",
+          "name": "Faucheur d’Âme",
+          "range": "0 (toucher)",
+          "aoe": "1 arme",
+          "duration": "1 Round/Niveau",
+          "save": false
+        },
+        {
+          "weave": 8,
+          "slug": "necromancie-8",
+          "name": "Appel du Seigneur des Tombes",
+          "range": "10 m",
+          "aoe": "1 target",
+          "duration": "1 heure/Niveau",
+          "save": true
+        },
+        {
+          "weave": 9,
+          "slug": "necromancie-9",
+          "name": "Possession Spirituelle",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "Spécial",
+          "save": true
+        },
+        {
+          "weave": 10,
+          "slug": "necromancie-10",
+          "name": "Bannissement",
+          "range": "20 m",
+          "aoe": "1 target",
+          "duration": "1 semaine/10 points d’échec",
+          "save": true
+        }
+      ],
+      "stat": "wsd"
+    }
+  }
+]

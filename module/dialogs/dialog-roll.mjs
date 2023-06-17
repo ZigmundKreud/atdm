@@ -21,9 +21,11 @@ export class AtDMSkillRollDialog extends Dialog {
             const clumsyRange = html.find("#clumsyRange").val();
             const maxResult = html.find("#maxResult").val();
             const skillScore = html.find("#skillScore").val();
-            const skillName = html.find("#skillName").val();
+            const label = html.find("#label").val();
+            const img = html.find("#img").val();
             const parameters = {
-              label : skillName,
+              label : label,
+              img : img,
               formula : formula,
               difficulty : parseInt(difficulty),
               clumsyRange : parseInt(clumsyRange),

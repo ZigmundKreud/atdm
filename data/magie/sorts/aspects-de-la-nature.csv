@@ -1,0 +1,78 @@
+1re • Changeur de Teintes
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur change la couleur de sa peau et de son équipement pour l’adapter à la végétation environnante. Pendant la Durée du Sort, tant que le lanceur est au moins partiellement caché par de l’herbe, du feuillage ou toute autre végétation, il bénéficie d’un bonus magique de +30 à ses Jets de Furtivité.
+Amplitude +3 : Modifiez la Durée à 10 minutes par Niveau.
+
+2e • Aspect du Limier
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur invoque l’esprit du Limier, qui lui confère la capacité de suivre les traces les plus ténues. Pendant la Durée du Sort, le lanceur bénéficie d’un bonus magique de +20 à ses Jets de Chasse.
+Amplitude +3 : Modifiez la Durée à 10 minutes par Niveau.
+
+3e • Aspect du Hibou
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur invoque l’esprit du Hibou, qui lui confère la capacité de voir dans l’obscurité de la nuit. Pendant la Durée du Sort, le lanceur peut voir jusqu’à 30 m en Faible Luminosité (les 15 premiers mètres sont traités comme s’il se tenait en Pleine Lumière) et jusqu’à 3 m dans l’Obscurité Totale.
+Amplitude +3 : Modifiez la Durée à 10 minutes par Niveau.
+Amplitude +5 : Le lanceur peut voir jusqu’à 30 m dans l’Obscurité Totale comme s’il se tenait en Pleine Lumière.
+
+4e • Aspect de l’Arbre
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur est couvert d’une illusion qui le fait ressembler à un petit arbre de son choix tant qu’il ne bouge pas pendant la Durée du Sort. L’illusion disparaît si le lanceur bouge, mais réapparaît dès qu’il cesse de bouger si ce Sort est toujours actif.
+Amplitude +3 : Modifiez la Durée à 10 minutes par Niveau.
+
+5e • Aspect du Renard
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur invoque l’esprit du Renard, qui lui confère la ruse inégalée de ce vieux filou. Pendant toute la Durée du Sort, le lanceur bénéficie d’un bonus magique de +20 à ses Jets de Duperie et à tous ses Jets de Compétences pour préparer ou éviter des pièges.
+Amplitude +3 : Modifiez la Durée à 10 minutes par Niveau.
+
+6e • Griffes de la Fureur *
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 Round par Niveau
+Sauvegarde : Non
+Pendant la Durée du Sort, les attaques à mains nues du lanceur sont résolues sur la Table d’Attaque des Bêtes, avec un résultat maximal de 120, et donnent des Coups Critiques de Taille.
+Amplitude +4 : Modifiez la Durée à 1 minute par Niveau.
+Amplitude +1 : Augmentez de 10 le résultat maximum des attaques à mains nues du lanceur sur la Table d’Attaque des Bêtes, jusqu’à un maximum de 150.
+
+7e • Changeur de Peau
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur est couvert pendant la Durée du Sort d’une illusion qui le fait ressembler à un animal de son choix de Taille Moyenne ou inférieure. L’illusion semble réelle même en cas d’inspection rapprochée et trompe la vue, le toucher et l’odorat. Même les traces laissées par le lanceur ressemblent à celles de l’animal choisi tant que ce Sort est actif.
+Amplitude +3 : Modifiez la Durée à 10 minutes par Niveau.
+
+8e • Aspect du Taureau
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur invoque l’esprit du Taureau, qui lui confère le pouvoir d’encaisser les coups les plus puissants. Pendant la Durée du Sort, le lanceur ne peut être Sonné et sa peau nue le protège comme une Armure Légère.
+
+9e • Aspect du Sanglier
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Le lanceur invoque l’esprit du Sanglier, qui lui confère la férocité et la force nécessaires pour vaincre les plus redoutables ennemis. Pendant la Durée du Sort, le lanceur bénéficie d’un bonus magique de +20 à tous ses Jets d’Attaque de mêlée et double les Dégâts de Base qu’il inflige avec ses attaques de mêlée lorsqu’il charge, mais il ne peut pas Parer ni utiliser d’attaques à distance.
+
+10e • Maître des Formes
+Portée : 0 (soi)
+Zone d’Effet : Lanceur
+Durée : 1 minute par Niveau
+Sauvegarde : Non
+Pendant la Durée du Sort, le lanceur peut prendre la forme d’un animal de son choix de Taille Petite, Moyenne ou Grande. Sous cette forme, il perd la capacité de parler et d’Incanter des Sorts, mais conserve toutes ses autres capacités mentales et acquiert les capacités physiques de l’animal choisi (y compris les PV, le Type d’Armure, les attaques et les capacités naturelles). Lorsqu’il doit effectuer un Jet de Compétence, le lanceur peut choisir d’utiliser son propre Bonus de Compétence ou celui de l’animal. Le lanceur reprend sa forme d’origine lorsque le Sort expire.

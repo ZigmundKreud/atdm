@@ -215,12 +215,14 @@
       "templates": [
         "base"
       ],
+      "stat" : "",
       "spells" :[
         {
           "weave" : 1,
           "name" : "",
           "img" : "",
           "slug" : "",
+          "instant" : false,
           "range" : null,
           "aoe" : "",
           "duration" : null,
